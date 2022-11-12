@@ -20,3 +20,4 @@ visual idea:
 
 initial features:
   -> Vamos iniciar com um botão de DARK MODE, algo diferente do que costumo fazer.
+  -> Faremos uma parte para o LOGIN e o SIGNU UP da mesma forma que seria com o menu hamburguer
