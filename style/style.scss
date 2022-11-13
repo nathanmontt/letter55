@@ -11,3 +11,54 @@ $font2: 'Kanit', sans-serif;
 $font4: 'Nunito Sans', sans-serif;
 $c1: black;
 $c2: white;
+
+/*CSS RESET*/
+* {
+  text-decoration: none;
+  list-style-type: none;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.hidden {
+  display: none;
+}
+
+.container-general-project {
+  .container-navbar {
+    .container-logos {
+      .logo-company-white-mode {
+        width: 5rem;
+      }
+      
+      .logo-company-dark-mode {
+        width: 5rem;
+        background-color: $c1;
+      }
+    }
+    
+    .container-menus-icon {
+      .open-menu-burger-white-mode {
+        width: 5rem;
+      }
+
+      .open-menu-burger-dark-mode {
+        width: 5rem;
+        background-color: $c1;
+      }
+
+    }
+
+    #menu {
+      .options {}
+
+      #light-dark {
+        .container-dark-light-mode {
+          .light-mode {}
+          .dark-mode {}
+        }
+      }
+    }
+  }
+}
