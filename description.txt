@@ -14,10 +14,6 @@ project descitption:
   como features futuros para que, assim, o site sempre tenha atualizações quase que
   constantes.
 
-visual idea:
-  A ideia visual vai contar com a logo da marca sendo um gato, bem relaxado, para demonstrar
-  sim um local mais aconchegante, mais acolhedor, confortável, mais "cozy".
-
 initial features:
   -> Vamos iniciar com um botão de DARK MODE, algo diferente do que costumo fazer.
   -> Faremos uma parte para o LOGIN e o SIGNU UP da mesma forma que seria com o menu hamburguer
