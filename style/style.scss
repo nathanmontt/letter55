@@ -57,9 +57,10 @@ $c2: white;
         .options {
           text-align: end;
           margin-bottom: .5rem;
+          border: 3px solid darkblue;
           
           .menu-links {
-            margin-right: 1rem;
+            margin: 0 .2rem 0 .7rem;
             text-transform: uppercase;
             font-family: $font4;
             font-weight: 300;
@@ -67,19 +68,20 @@ $c2: white;
           }
 
           .container-dark-light-mode {
-            cursor: pointer;
-            display: inline-block;
-            border: .01rem solid black;
-            border-radius: 5rem;
+            display: inline-flex;
+            align-items: center;
             
-            #light-mode-sun {
-              width: 2rem;
+            #light-mode {
+              cursor: pointer;
+              width: 3rem;
+              margin-right: .5rem;
             }
             
-            #dark-mode-moon {
-              // cursor: pointer;
-              background-color: $c1;
+            #dark-mode {
+              cursor: pointer;
+              margin-right: .2rem;
               width: 2rem;
+              height: 2rem;
             }
           }
         }

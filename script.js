@@ -5,15 +5,15 @@ const btnOpenCloseMenu = document.querySelector('.menu-burger');
 const optionsMenu = document.querySelectorAll('.options');
 
 //DARK/LIGHT MODE
-const switchToDarkMode = document.getElementById('dark-mode-moon');
-const switchToLigthMode = document.getElementById('light-mode-sun');
+const switchToDarkMode = document.getElementById('dark-mode');
+const switchToLigthMode = document.getElementById('light-mode');
 const body = document.querySelector('body');
 const optionLinks = document.querySelectorAll('.menu-links')
 
 /* WHITE MODE */
 for (let i=0 ; i<optionsMenu.length ; i++) {
   console.log('ola');
-  btnOpenCloseMenuDark.addEventListener('click', function () {
+  btnOpenCloseMenu.addEventListener('click', function () {
     optionsMenu[i].classList.toggle('hidden');
   });
 }
