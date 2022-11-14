@@ -14,4 +14,33 @@
 
 .hidden {
   display: none;
+}
+
+.container-general #top-section .container-top-section-explanation {
+  min-height: 100vh;
+}
+.container-general #top-section .container-top-section-explanation .container-texts-top-section {
+  display: flex;
+  justify-content: space-between;
+  padding: 1.7rem 1.7rem 0 1.7rem;
+  font-family: "Quicksand", sans-serif;
+  font-weight: 400;
+  text-transform: capitalize;
+}
+.container-general #top-section .container-top-section-explanation .company {
+  padding: 1.7rem;
+  font-size: 5rem;
+  font-weight: 500;
+  font-family: "Playfair Display", serif;
+}
+.container-general #top-section .container-top-section-explanation .company .type-of {
+  margin-left: 1rem;
+  font-size: 1rem;
+}
+.container-general #top-section .container-top-section-explanation .bg-image-1 {
+  background-image: url("/cozy/assets/images/cozy-16-R-ARCHITECTURE.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
 }/*# sourceMappingURL=style.css.map */

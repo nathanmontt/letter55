@@ -7,8 +7,7 @@
 //VARIABLES
 $font1: 'Playfair Display', serif;
 $font2: 'Nanum Gothic', sans-serif;
-$font3: 'Kanit', sans-serif;
-$font4: 'Quicksand', sans-serif;
+$font3: 'Quicksand', sans-serif;
 $c1: black;
 $c2: white;
 
@@ -23,4 +22,60 @@ $c2: white;
 
 .hidden {
   display: none;
+}
+
+.container-general {
+  #top-section{
+    .container-top-section-explanation {
+      min-height: 100vh;
+      .container-texts-top-section {
+        display: flex;
+        justify-content: space-between;
+        padding: 1.7rem 1.7rem 0 1.7rem;
+
+        font-family: $font3;
+        font-weight: 400;
+        text-transform: capitalize;
+
+        .concept {}
+        .date {}
+      }
+
+      .company {
+        padding: 1.7rem;
+        font-size: 5rem;
+        font-weight: 500;
+        font-family: $font1;
+        
+        .type-of {
+          margin-left: 1rem;
+          font-size: 1rem;
+        }
+      }
+
+      .bg-image-1 {
+        background-image: url("/cozy/assets/images/cozy-16-R-ARCHITECTURE.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        min-height: 100vh;
+      }
+    }
+  }
+
+  .container-top-section-about {
+    .container-text-company {
+      .title-about-section {}
+      .description-about-section {}
+    }
+
+    .container-creator {
+      .container-text-creator {
+        .title-about-creator-section {}
+        .description-creator {}
+      }
+
+      #creator {}
+    }
+  }
 }
