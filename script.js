@@ -1,21 +1,21 @@
 'use strict'
 
-/*VARIABLES*/
-const btnOpenCloseMenu = document.querySelector('.menu-burger');
-const optionsMenu = document.querySelectorAll('.options');
+// /*VARIABLES*/
+// const btnOpenCloseMenu = document.querySelector('.menu-burger');
+// const optionsMenu = document.querySelectorAll('.options');
 
-/*DARK/LIGHT MODE*/
-const darkMode = document.getElementById('dark-mode');
-const lightMode = document.getElementById('light-mode');
-const body = document.querySelector('body');
-const optionLinks = document.querySelectorAll('.menu-links')
+// /*DARK/LIGHT MODE*/
+// const darkMode = document.getElementById('dark-mode');
+// const lightMode = document.getElementById('light-mode');
+// const body = document.querySelector('body');
+// const optionLinks = document.querySelectorAll('.menu-links')
 
-/* OPENING THE HAMBURGER MENU OPTIONS */
-for (let i=0 ; i<optionsMenu.length ; i++) {
-  btnOpenCloseMenu.addEventListener('click', function () {
-    optionsMenu[i].classList.toggle('hidden');
-  });
-}
+// /* OPENING THE HAMBURGER MENU OPTIONS */
+// for (let i=0 ; i<optionsMenu.length ; i++) {
+//   btnOpenCloseMenu.addEventListener('click', function () {
+//     optionsMenu[i].classList.toggle('hidden');
+//   });
+// }
 
 //SWITCH TO DARK MODE
 // darkMode.addEventListener('click', function () {
