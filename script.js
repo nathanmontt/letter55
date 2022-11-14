@@ -19,12 +19,23 @@ for (let i=0 ; i<optionsMenu.length ; i++) {
   });
 }
 
-switchDarkLigthMode.addEventListener('click', function () {
+//SETTING TO SWITCH TO DARK MODE
+switchToDarkMode.addEventListener('click', function () {
   body.style.backgroundColor = "black";
   
   for (let i=0 ; i<optionLinks.length ; i++) {
-    console.log('opalele');
+    console.log('teste 1');
     optionLinks[i].style.color = "white";
+  }
+});
+
+//SETTING TO SWITCH TO LIGHT MODE
+switchToLigthMode.addEventListener('click', function () {
+  body.style.backgroundColor = "white";
+  
+  for (let i=0 ; i<optionLinks.length ; i++) {
+    console.log('teste 2');
+    optionLinks[i].style.color = "black";
   }
 });
 

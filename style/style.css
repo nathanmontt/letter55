@@ -57,10 +57,13 @@
 .container-general-project .container-navbar nav .menu .options .container-dark-light-mode {
   cursor: pointer;
   display: inline-block;
+  border: 0.01rem solid black;
+  border-radius: 5rem;
 }
-.container-general-project .container-navbar nav .menu .options .container-dark-light-mode #light-mode {
+.container-general-project .container-navbar nav .menu .options .container-dark-light-mode #light-mode-sun {
   width: 2rem;
 }
-.container-general-project .container-navbar nav .menu .options .container-dark-light-mode #dark-mode {
+.container-general-project .container-navbar nav .menu .options .container-dark-light-mode #dark-mode-moon {
+  background-color: black;
   width: 2rem;
 }/*# sourceMappingURL=style.css.map */
