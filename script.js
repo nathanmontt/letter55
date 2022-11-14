@@ -1,8 +1,7 @@
 'use strict'
 
 //VARIABLES
-const btnOpenCloseMenuDark = document.querySelector('.open-menu-burger-white-mode');
-const btnOpenCloseMenuWhite = document.querySelector('.open-menu-burger-dark-mode');
+const btnOpenCloseMenu = document.querySelector('.menu-burger');
 const optionsMenu = document.querySelectorAll('.options');
 
 //DARK/LIGHT MODE
