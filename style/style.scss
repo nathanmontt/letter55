@@ -67,7 +67,7 @@ $c2: white;
           text-align: end;
           margin-bottom: .5rem;
           
-          a {
+          .menu-links {
             margin-right: 1rem;
             text-transform: uppercase;
             font-family: $font4;
@@ -76,13 +76,14 @@ $c2: white;
           }
 
           .container-dark-light-mode {
+            cursor: pointer;
+            display: inline-block;
             #light-mode {
-              cursor: pointer;
               width: 2rem;
             }
             
             #dark-mode {
-              cursor: pointer;
+              // cursor: pointer;
               // background-color: $c1;
               width: 2rem;
             }

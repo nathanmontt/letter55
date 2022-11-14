@@ -47,18 +47,20 @@
   text-align: end;
   margin-bottom: 0.5rem;
 }
-.container-general-project .container-navbar nav .menu .options a {
+.container-general-project .container-navbar nav .menu .options .menu-links {
   margin-right: 1rem;
   text-transform: uppercase;
   font-family: "Quicksand", sans-serif;
   font-weight: 300;
   color: black;
 }
-.container-general-project .container-navbar nav .menu .options .container-dark-light-mode #light-mode {
+.container-general-project .container-navbar nav .menu .options .container-dark-light-mode {
   cursor: pointer;
+  display: inline-block;
+}
+.container-general-project .container-navbar nav .menu .options .container-dark-light-mode #light-mode {
   width: 2rem;
 }
 .container-general-project .container-navbar nav .menu .options .container-dark-light-mode #dark-mode {
-  cursor: pointer;
   width: 2rem;
 }/*# sourceMappingURL=style.css.map */
