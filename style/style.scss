@@ -27,48 +27,65 @@ $c2: white;
 
 .container-general-project {
   .container-navbar {
+    display: flex;
+    justify-content: space-between;
+
     .container-logos {
+      padding: .5rem;
       .logo-company-white-mode {
         width: 5rem;
       }
       
       .logo-company-dark-mode {
         width: 5rem;
-        background-color: $c1;
       }
     }
     
-    .container-menus-icon {
-      .open-menu-burger-white-mode {
-        width: 5rem;
-      }
+    nav {
+      padding: .5rem;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+      // background-color: darkblue;
 
-      .open-menu-burger-dark-mode {
-        width: 5rem;
-        background-color: $c1;
-      }
+      .container-menus-icon {
 
-    }
-
-    #menu {
-      .options {
-        a {
-          text-transform: uppercase;
-          font-family: $font4;
-          font-weight: 300;
-          color: $c1;
+        .open-menu-burger-white-mode {
+          cursor: pointer;
+          width: 5rem;
+        }
+        
+        .open-menu-burger-dark-mode {
+          cursor: pointer;
+          width: 5rem;
         }
 
-        .container-dark-light-mode {
-          #light-mode {
-            cursor: pointer;
-            width: 2rem;
-          }
+      }
+
+      .menu {
+        .options {
+          text-align: end;
+          margin-bottom: .5rem;
           
-          #dark-mode {
-            cursor: pointer;
-            background-color: $c1;
-            width: 2rem;
+          a {
+            margin-right: 1rem;
+            text-transform: uppercase;
+            font-family: $font4;
+            font-weight: 300;
+            color: $c1;
+          }
+
+          .container-dark-light-mode {
+            #light-mode {
+              cursor: pointer;
+              width: 2rem;
+            }
+            
+            #dark-mode {
+              cursor: pointer;
+              // background-color: $c1;
+              width: 2rem;
+            }
           }
         }
       }
