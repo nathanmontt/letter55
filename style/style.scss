@@ -64,18 +64,37 @@ $c2: white;
   }
 
   .container-top-section-about {
+    padding: 1.2rem;
+
     .container-text-company {
-      .title-about-section {}
+      font-family: $font3;
+
+      .title-about-section {
+        text-transform: uppercase;
+        font-weight: 700;
+        margin-bottom: .7rem;
+      }
+
       .description-about-section {}
     }
 
     .container-creator {
+      margin: 5rem 0 0 0;
       .container-text-creator {
-        .title-about-creator-section {}
+        font-family: $font3;
+
+        .title-about-creator-section {
+          text-transform: uppercase;
+          font-weight: 700;
+          margin-bottom: .7rem;
+        }
         .description-creator {}
       }
 
-      #creator {}
+      #creator {
+        width: 10rem;
+        margin: 1rem 0 0 0;
+      }
     }
   }
 }
