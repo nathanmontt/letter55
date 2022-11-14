@@ -39,7 +39,6 @@
 .container-general-project .container-navbar nav .menu .options {
   text-align: end;
   margin-bottom: 0.5rem;
-  border: 3px solid darkblue;
 }
 .container-general-project .container-navbar nav .menu .options .menu-links {
   margin: 0 0.2rem 0 0.7rem;
@@ -55,11 +54,11 @@
 .container-general-project .container-navbar nav .menu .options .container-dark-light-mode #light-mode {
   cursor: pointer;
   width: 3rem;
-  margin-right: 0.5rem;
+  margin-right: 0.3rem;
 }
 .container-general-project .container-navbar nav .menu .options .container-dark-light-mode #dark-mode {
   cursor: pointer;
-  margin-right: 0.2rem;
+  margin-right: 0.5rem;
   width: 2rem;
   height: 2rem;
 }/*# sourceMappingURL=style.css.map */
