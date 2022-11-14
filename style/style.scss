@@ -95,4 +95,24 @@ $c2: white;
       #creator {}
     }
   }
+
+  .middle-section {
+    .container-navbar {
+      #link-product {}
+      .logo-company {}
+      .hamb-menu {}
+
+      nav {
+        #menu-options {
+          .options {
+            a {}
+            #container-light-dark {
+              #sun {}
+              #moon {}
+            }
+          }
+        }
+      }
+    }
+  }
 }
