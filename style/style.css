@@ -56,7 +56,7 @@
   margin-bottom: 0.7rem;
 }
 .container-general .container-top-section-about .container-creator {
-  margin: 5rem 0 0 0;
+  margin: 4rem 0 0 0;
 }
 .container-general .container-top-section-about .container-creator .container-text-creator {
   font-family: "Quicksand", sans-serif;
@@ -65,4 +65,64 @@
   text-transform: uppercase;
   font-weight: 700;
   margin-bottom: 0.7rem;
+}
+.container-general .middle-section .container-navbar {
+  border: 3px solid darkblue;
+  min-height: 100vh;
+}
+.container-general .middle-section .container-navbar .container-whole-nav {
+  display: flex;
+  justify-content: space-between;
+}
+.container-general .middle-section .container-navbar .container-whole-nav #link-product {
+  font-family: "Quicksand", sans-serif;
+  font-weight: 400;
+  color: black;
+  text-transform: uppercase;
+}
+.container-general .middle-section .container-navbar .container-whole-nav #link-product:hover {
+  font-weight: 700;
+}
+.container-general .middle-section .container-navbar .container-whole-nav .logo-company {
+  width: 5rem;
+  height: 5rem;
+}
+.container-general .middle-section .container-navbar .container-whole-nav nav {
+  display: flex;
+  flex-direction: column;
+  text-align: end;
+  align-items: flex-end;
+  justify-content: end;
+}
+.container-general .middle-section .container-navbar .container-whole-nav nav .hamb-menu {
+  width: 5rem;
+}
+.container-general .middle-section .container-navbar .container-whole-nav nav #menu-options {
+  margin: 0 1.3rem 0 0;
+}
+.container-general .middle-section .container-navbar .container-whole-nav nav #menu-options .options {
+  margin-bottom: 0.5rem;
+}
+.container-general .middle-section .container-navbar .container-whole-nav nav #menu-options .options a {
+  font-family: "Quicksand", sans-serif;
+  font-weight: 400;
+  color: black;
+  text-transform: uppercase;
+}
+.container-general .middle-section .container-navbar .container-whole-nav nav #menu-options .options a:hover {
+  font-weight: 700;
+}
+.container-general .middle-section .container-navbar .container-whole-nav nav #menu-options .options #container-light-dark {
+  display: inline-flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.container-general .middle-section .container-navbar .container-whole-nav nav #menu-options .options #container-light-dark #sun {
+  margin-right: 0.5rem;
+  cursor: pointer;
+  width: 3rem;
+}
+.container-general .middle-section .container-navbar .container-whole-nav nav #menu-options .options #container-light-dark #moon {
+  cursor: pointer;
+  width: 2rem;
 }/*# sourceMappingURL=style.css.map */

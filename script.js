@@ -1,6 +1,9 @@
 'use strict'
 
-// /*VARIABLES*/
+/*VARIABLES*/
+
+const openMenu = document.querySelector('.hamb-menu');
+const optionsMenu = document.querySelectorAll('.options');
 // const btnOpenCloseMenu = document.querySelector('.menu-burger');
 // const optionsMenu = document.querySelectorAll('.options');
 
@@ -10,7 +13,12 @@
 // const body = document.querySelector('body');
 // const optionLinks = document.querySelectorAll('.menu-links')
 
-// /* OPENING THE HAMBURGER MENU OPTIONS */
+/* OPENING THE HAMBURGER MENU OPTIONS */
+for (let i=0 ; i<optionsMenu.length ; i++) {
+  openMenu.addEventListener('click', function () {
+    optionsMenu[i].classList.toggle('hidden');
+  });
+}
 // for (let i=0 ; i<optionsMenu.length ; i++) {
 //   btnOpenCloseMenu.addEventListener('click', function () {
 //     optionsMenu[i].classList.toggle('hidden');

@@ -79,7 +79,7 @@ $c2: white;
     }
 
     .container-creator {
-      margin: 5rem 0 0 0;
+      margin: 4rem 0 0 0;
       .container-text-creator {
         font-family: $font3;
 
@@ -95,20 +95,74 @@ $c2: white;
       #creator {}
     }
   }
-
+  
   .middle-section {
     .container-navbar {
-      #link-product {}
-      .logo-company {}
-      .hamb-menu {}
+      border: 3px solid darkblue;
+      min-height: 100vh;
+      
+      .container-whole-nav{
+        display: flex;
+        justify-content: space-between;
 
-      nav {
-        #menu-options {
-          .options {
-            a {}
-            #container-light-dark {
-              #sun {}
-              #moon {}
+        #link-product {
+          // display: inline-block;
+          font-family: $font3;
+          font-weight: 400;
+          color: $c1;
+          text-transform: uppercase;
+          
+          &:hover {
+            font-weight: 700;
+          }
+        }
+        
+        .logo-company {
+          width: 5rem;
+          height: 5rem;
+        }
+        
+        nav {
+          display: flex;
+          flex-direction: column;
+          text-align: end;
+          align-items: flex-end;
+          justify-content: end;
+          .hamb-menu {
+            width: 5rem;
+          }
+          
+          #menu-options {
+            margin: 0 1.3rem 0 0;
+            .options {
+              margin-bottom: .5rem;
+              a {
+                font-family: $font3;
+                font-weight: 400;
+                color: $c1;
+                text-transform: uppercase;
+                
+                &:hover {
+                  font-weight: 700;
+                }
+              }
+
+              #container-light-dark {
+                display: inline-flex;
+                align-items: center;
+                justify-content: flex-end;
+                
+                #sun {
+                  margin-right: .5rem;
+                  cursor: pointer;
+                  width: 3rem;
+                }
+                
+                #moon {
+                  cursor: pointer;
+                  width: 2rem;
+                }
+              }
             }
           }
         }
