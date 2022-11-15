@@ -1,13 +1,12 @@
 'use strict'
 
 /*VARIABLES*/
-
 const openMenu = document.querySelector('.hamb-menu');
 const optionsMenu = document.querySelectorAll('.options');
-// const btnOpenCloseMenu = document.querySelector('.menu-burger');
-// const optionsMenu = document.querySelectorAll('.options');
 
-// /*DARK/LIGHT MODE*/
+/*DARK/LIGHT MODE VARIABLES*/
+const darkMode = document.getElementById('moon');
+const lightMode = document.getElementById('sun');
 // const darkMode = document.getElementById('dark-mode');
 // const lightMode = document.getElementById('light-mode');
 // const body = document.querySelector('body');
@@ -19,13 +18,11 @@ for (let i=0 ; i<optionsMenu.length ; i++) {
     optionsMenu[i].classList.toggle('hidden');
   });
 }
-// for (let i=0 ; i<optionsMenu.length ; i++) {
-//   btnOpenCloseMenu.addEventListener('click', function () {
-//     optionsMenu[i].classList.toggle('hidden');
-//   });
-// }
 
 //SWITCH TO DARK MODE
+darkMode.addEventListener('click', function () {
+  console.log('oola');
+});
 // darkMode.addEventListener('click', function () {
   
   /* STYLING THE MODES */
@@ -43,6 +40,10 @@ for (let i=0 ; i<optionsMenu.length ; i++) {
 // });
 
 //SWITCH TO LIGHT MODE
+lightMode.addEventListener('click', function () {
+  let text = "hello tds!!!"
+  console.log(text);
+});
 // lightMode.addEventListener('click', function () {
   
   /* STYLING THE MODES */
