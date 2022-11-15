@@ -83,7 +83,7 @@
 .container-general .middle-section .container-navbar .container-whole-nav #link-product:hover {
   font-weight: 700;
 }
-.container-general .middle-section .container-navbar .container-whole-nav .logo-company {
+.container-general .middle-section .container-navbar .container-whole-nav #logo-company {
   width: 5rem;
   height: 5rem;
 }
@@ -95,6 +95,7 @@
   justify-content: end;
 }
 .container-general .middle-section .container-navbar .container-whole-nav nav .hamb-menu {
+  cursor: pointer;
   width: 5rem;
 }
 .container-general .middle-section .container-navbar .container-whole-nav nav #menu-options {

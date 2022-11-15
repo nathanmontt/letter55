@@ -117,7 +117,7 @@ $c2: white;
           }
         }
         
-        .logo-company {
+        #logo-company {
           width: 5rem;
           height: 5rem;
         }
@@ -128,7 +128,9 @@ $c2: white;
           text-align: end;
           align-items: flex-end;
           justify-content: end;
+
           .hamb-menu {
+            cursor: pointer;
             width: 5rem;
           }
           
