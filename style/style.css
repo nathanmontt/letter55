@@ -66,8 +66,11 @@
   font-weight: 700;
   margin-bottom: 0.7rem;
 }
-.container-general .middle-section .container-navbar {
-  border: 3px solid darkblue;
+.container-general .middle-section {
+  background-image: url("/cozy/assets/images/cozy-15-Christian-Mackie.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   min-height: 100vh;
 }
 .container-general .middle-section .container-navbar .container-whole-nav {
@@ -84,8 +87,8 @@
   font-weight: 700;
 }
 .container-general .middle-section .container-navbar .container-whole-nav #logo-company {
-  width: 5rem;
-  height: 5rem;
+  width: 4rem;
+  height: 4rem;
 }
 .container-general .middle-section .container-navbar .container-whole-nav nav {
   display: flex;
@@ -96,7 +99,7 @@
 }
 .container-general .middle-section .container-navbar .container-whole-nav nav .hamb-menu {
   cursor: pointer;
-  width: 5rem;
+  width: 4rem;
 }
 .container-general .middle-section .container-navbar .container-whole-nav nav #menu-options {
   margin: 0 1.3rem 0 0;
@@ -107,6 +110,7 @@
 .container-general .middle-section .container-navbar .container-whole-nav nav #menu-options .options a {
   font-family: "Quicksand", sans-serif;
   font-weight: 400;
+  font-size: 0.876rem;
   color: black;
   text-transform: uppercase;
 }
@@ -121,9 +125,9 @@
 .container-general .middle-section .container-navbar .container-whole-nav nav #menu-options .options #container-light-dark #sun {
   margin-right: 0.5rem;
   cursor: pointer;
-  width: 3rem;
+  width: 2rem;
 }
 .container-general .middle-section .container-navbar .container-whole-nav nav #menu-options .options #container-light-dark #moon {
   cursor: pointer;
-  width: 2rem;
+  width: 1rem;
 }/*# sourceMappingURL=style.css.map */

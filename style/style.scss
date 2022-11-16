@@ -98,8 +98,7 @@ $c2: white;
   
   .middle-section {
     .container-navbar {
-      border: 3px solid darkblue;
-      min-height: 100vh;
+      // min-height: 100vh;
       
       .container-whole-nav{
         display: flex;
@@ -118,8 +117,8 @@ $c2: white;
         }
         
         #logo-company {
-          width: 5rem;
-          height: 5rem;
+          width: 4rem;
+          height: 4rem;
         }
         
         nav {
@@ -131,7 +130,7 @@ $c2: white;
 
           .hamb-menu {
             cursor: pointer;
-            width: 5rem;
+            width: 4rem;
           }
           
           #menu-options {
@@ -141,6 +140,7 @@ $c2: white;
               a {
                 font-family: $font3;
                 font-weight: 400;
+                font-size: .876rem;
                 color: $c1;
                 text-transform: uppercase;
                 
@@ -157,12 +157,12 @@ $c2: white;
                 #sun {
                   margin-right: .5rem;
                   cursor: pointer;
-                  width: 3rem;
+                  width: 2rem;
                 }
                 
                 #moon {
                   cursor: pointer;
-                  width: 2rem;
+                  width: 1rem;
                 }
               }
             }
@@ -170,5 +170,18 @@ $c2: white;
         }
       }
     }
+    background-image: url("/cozy/assets/images/cozy-15-Christian-Mackie.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+      .container-middle-main {
+        .container-middle-hero {
+          .company-name-middle {}
+
+          .slogan-company-middle {}
+
+        }
+      }
   }
 }
