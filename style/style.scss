@@ -101,22 +101,12 @@ $c2: white;
       // min-height: 100vh;
       
       .container-whole-nav{
+        padding: .5rem;
         display: flex;
         justify-content: space-between;
-
-        #link-product {
-          // display: inline-block;
-          font-family: $font3;
-          font-weight: 400;
-          color: $c1;
-          text-transform: uppercase;
-          
-          &:hover {
-            font-weight: 700;
-          }
-        }
         
         #logo-company {
+          visibility: hidden;
           width: 4rem;
           height: 4rem;
         }
@@ -127,7 +117,7 @@ $c2: white;
           text-align: end;
           align-items: flex-end;
           justify-content: end;
-
+          
           .hamb-menu {
             cursor: pointer;
             width: 4rem;
@@ -170,18 +160,23 @@ $c2: white;
         }
       }
     }
-    background-image: url("/cozy/assets/images/cozy-1-Cat-Han.jpg");
+    background-image: url("/cozy/assets/images/cozy-3-Cat-Han.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 100vh;
-      .container-middle-main {
-        .container-middle-hero {
-          .company-name-middle {}
 
-          .slogan-company-middle {}
+    .container-hero {
+      .container-texts-hero {
+        .company-name-nav {}
 
-        }
+        .slogan-company-nav {}
+
       }
+    }
+  }
+
+  main {
+    
   }
 }
