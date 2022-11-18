@@ -67,7 +67,7 @@
   margin-bottom: 0.7rem;
 }
 .container-general .middle-section {
-  background-image: url("/cozy/assets/images/cozy-3-Cat-Han.jpg");
+  background-image: url("/cozy/assets/images/cozy-12-Todd-Diemer.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -104,7 +104,7 @@
   font-family: "Quicksand", sans-serif;
   font-weight: 400;
   font-size: 0.876rem;
-  color: black;
+  color: white;
   text-transform: uppercase;
 }
 .container-general .middle-section .container-navbar .container-whole-nav nav #menu-options .options a:hover {
@@ -123,4 +123,14 @@
 .container-general .middle-section .container-navbar .container-whole-nav nav #menu-options .options #container-light-dark #moon {
   cursor: pointer;
   width: 1rem;
+}
+.container-general .middle-section .container-hero {
+  border: 3px solid blue;
+  font-family: "Quicksand", sans-serif;
+  color: white;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  margin-top: 16rem;
 }/*# sourceMappingURL=style.css.map */

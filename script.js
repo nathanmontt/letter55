@@ -20,6 +20,19 @@ for (let i=0 ; i<optionsMenu.length ; i++) {
 
 //SWITCH TO DARK MODE
 darkMode.addEventListener('click', function () {
+  body.style.backgroundColor = "white";
+  darkMode.src = `/cozy/assets/images/icons/moon-mode-${1}.png`;
+  lightMode.src = `/cozy/assets/images/icons/sun-mode-${1}.png`;
+  logoCompany.src = `/cozy/assets/images/icons/staircase-logo-${1}.png`;
+  openMenu.src = `/cozy/assets/images/icons/menu-hamb-${1}.png`;
+  
+  for (let i=0 ; i<links.length ; i++) {
+    links[i].style.color = "black";
+  }
+});
+
+//SWITCH TO LIGHT MODE
+lightMode.addEventListener('click', function () {
   body.style.backgroundColor = "black";
   darkMode.src = `/cozy/assets/images/icons/moon-mode-${2}.png`;
   lightMode.src = `/cozy/assets/images/icons/sun-mode-${2}.png`;
@@ -28,18 +41,5 @@ darkMode.addEventListener('click', function () {
   
   for (let i=0 ; i<links.length ; i++) {
     links[i].style.color = "white";
-  }
-});
-
-//SWITCH TO LIGHT MODE
-lightMode.addEventListener('click', function () {
-  body.style.backgroundColor = "white";
-  darkMode.src = `/cozy/assets/images/icons/moon-mode-1.png`;
-  lightMode.src = `/cozy/assets/images/icons/sun-mode-1.png`;
-  logoCompany.src = `/cozy/assets/images/icons/staircase-logo-1.png`;
-  openMenu.src = `/cozy/assets/images/icons/menu-hamb-1.png`;
-  
-  for (let i=0 ; i<links.length ; i++) {
-    links[i].style.color = "black";
   }
 });

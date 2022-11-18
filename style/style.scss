@@ -125,13 +125,14 @@ $c2: white;
           
           #menu-options {
             margin: 0 1.3rem 0 0;
+
             .options {
               margin-bottom: .5rem;
               a {
                 font-family: $font3;
                 font-weight: 400;
                 font-size: .876rem;
-                color: $c1;
+                color: $c2;
                 text-transform: uppercase;
                 
                 &:hover {
@@ -160,13 +161,26 @@ $c2: white;
         }
       }
     }
-    background-image: url("/cozy/assets/images/cozy-3-Cat-Han.jpg");
+    
+    background-image: url("/cozy/assets/images/cozy-12-Todd-Diemer.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 100vh;
 
     .container-hero {
+      border: 3px solid blue;
+      font-family: $font3;
+      color: $c2;
+      
+      // position: absolute;
+      top: 0;
+      right: 0;
+      left: 0;
+      bottom: 0;
+      
+      margin-top: 16rem;
+
       .container-texts-hero {
         .company-name-nav {}
 
