@@ -23,3 +23,53 @@ $c2: white;
 .hidden {
   display: none;
 }
+
+.container-general {
+  .container-navigation {
+    .container-general-menu {
+      #hamb-menu {}
+
+      .container-menu-1 {
+        .name-company {}
+
+        nav {
+          .menu {
+            .options {
+              .links {}
+            }
+          }
+        }
+      }
+
+      .container-menu-2 {
+        nav {
+          .menu {
+            .options {
+              .links {}
+            }
+          }
+        }
+      }
+    }
+  }
+
+  main  {
+    .container-recipe-group {
+      .container-recipe-video {}
+
+      .slogan-company{}
+      #all-recipes {}
+
+      .container-recipes {
+        .container-food {
+          .food-image {}
+          .container-food-texts {
+            .food-name {}
+            .prep-time {}
+            .people-serve {}
+          }
+        }
+      }
+    }
+  }
+}
