@@ -27,23 +27,47 @@ $c2: white;
 .container-general {
   .container-navigation {
     .container-general-menu {
-      #hamb-menu {
-        width: 3rem;
+      display: flex;
+      justify-content: space-between;
+      padding: 1rem;
+
+      .name-company {
+        font-family: $font3;
+        font-weight: 500;
+        font-size: 1.6rem;
+        text-transform: capitalize;
       }
-
-      .container-menu-1 {
-        .name-company {
-          font-family: $font3;
-          font-weight: 400;
-          text-transform: capitalize;
+  
+      .container-navigation{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        
+        #hamb-menu {
+          width: 3rem;
+          height: 3rem;
+          cursor: pointer;
         }
+        
+        .container-menu {
+          nav {
+            .menu {
+              .options {
+                text-align: end;
+                padding: .2rem;
+                margin-left: .2rem;
 
-        nav {
-          .menu {
-            .options {
-              .links {
-                font-family: $font3;
-                font-weight: lighter;
+                .links {
+                  color: $c1;
+                  font-family: $font3;
+                  font-weight: lighter;
+                  text-transform: capitalize;
+                  margin-right: .5rem;
+                  
+                  &:hover {
+                    font-weight: 700;
+                  }
+                }
               }
             }
           }

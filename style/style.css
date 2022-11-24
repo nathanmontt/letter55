@@ -16,17 +16,41 @@
   display: none;
 }
 
-.container-general .container-navigation .container-general-menu #hamb-menu {
-  width: 3rem;
+.container-general .container-navigation .container-general-menu {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
 }
-.container-general .container-navigation .container-general-menu .container-menu-1 .name-company {
+.container-general .container-navigation .container-general-menu .name-company {
   font-family: "Quicksand", sans-serif;
-  font-weight: 400;
+  font-weight: 500;
+  font-size: 1.6rem;
   text-transform: capitalize;
 }
-.container-general .container-navigation .container-general-menu .container-menu-1 nav .menu .options .links {
+.container-general .container-navigation .container-general-menu .container-navigation {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.container-general .container-navigation .container-general-menu .container-navigation #hamb-menu {
+  width: 3rem;
+  height: 3rem;
+  cursor: pointer;
+}
+.container-general .container-navigation .container-general-menu .container-navigation .container-menu nav .menu .options {
+  text-align: end;
+  padding: 0.2rem;
+  margin-left: 0.2rem;
+}
+.container-general .container-navigation .container-general-menu .container-navigation .container-menu nav .menu .options .links {
+  color: black;
   font-family: "Quicksand", sans-serif;
   font-weight: lighter;
+  text-transform: capitalize;
+  margin-right: 0.5rem;
+}
+.container-general .container-navigation .container-general-menu .container-navigation .container-menu nav .menu .options .links:hover {
+  font-weight: 700;
 }
 .container-general .container-navigation .container-general-menu .container-menu-2 nav .menu .options .links {
   font-family: "Quicksand", sans-serif;
