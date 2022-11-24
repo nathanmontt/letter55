@@ -27,15 +27,24 @@ $c2: white;
 .container-general {
   .container-navigation {
     .container-general-menu {
-      #hamb-menu {}
+      #hamb-menu {
+        width: 3rem;
+      }
 
       .container-menu-1 {
-        .name-company {}
+        .name-company {
+          font-family: $font3;
+          font-weight: 400;
+          text-transform: capitalize;
+        }
 
         nav {
           .menu {
             .options {
-              .links {}
+              .links {
+                font-family: $font3;
+                font-weight: lighter;
+              }
             }
           }
         }
@@ -45,7 +54,10 @@ $c2: white;
         nav {
           .menu {
             .options {
-              .links {}
+              .links {
+                font-family: $font3;
+                font-weight: lighter;
+              }
             }
           }
         }

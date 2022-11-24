@@ -14,4 +14,21 @@
 
 .hidden {
   display: none;
+}
+
+.container-general .container-navigation .container-general-menu #hamb-menu {
+  width: 3rem;
+}
+.container-general .container-navigation .container-general-menu .container-menu-1 .name-company {
+  font-family: "Quicksand", sans-serif;
+  font-weight: 400;
+  text-transform: capitalize;
+}
+.container-general .container-navigation .container-general-menu .container-menu-1 nav .menu .options .links {
+  font-family: "Quicksand", sans-serif;
+  font-weight: lighter;
+}
+.container-general .container-navigation .container-general-menu .container-menu-2 nav .menu .options .links {
+  font-family: "Quicksand", sans-serif;
+  font-weight: lighter;
 }/*# sourceMappingURL=style.css.map */
