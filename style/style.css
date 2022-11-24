@@ -52,6 +52,18 @@
 .container-general .container-navigation .container-general-menu .container-navigation .container-menu nav .menu .options .links:hover {
   font-weight: 700;
 }
+.container-general .container-navigation .container-general-menu .container-navigation .container-menu nav .menu #modes {
+  display: inline-flex;
+  align-items: center;
+}
+.container-general .container-navigation .container-general-menu .container-navigation .container-menu nav .menu #modes .mode-sun {
+  cursor: pointer;
+  width: 2.5rem;
+}
+.container-general .container-navigation .container-general-menu .container-navigation .container-menu nav .menu #modes .mode-moon {
+  cursor: pointer;
+  width: 1.5rem;
+}
 .container-general .container-navigation .container-general-menu .container-menu-2 nav .menu .options .links {
   font-family: "Quicksand", sans-serif;
   font-weight: lighter;
