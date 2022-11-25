@@ -15,4 +15,68 @@
 
 .hidden {
   display: none;
+}
+
+#container-general .container-nav {
+  padding: 2rem;
+}
+#container-general .container-nav .container-navigation-options {
+  display: flex;
+  justify-content: space-between;
+}
+#container-general .container-nav .container-navigation-options #container-menu-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#container-general .container-nav .container-navigation-options #container-menu-1 .company-name {
+  font-family: "Quicksand", sans-serif;
+  font-weight: 700;
+  font-size: 1.5rem;
+  text-transform: capitalize;
+  margin-right: 2rem;
+}
+#container-general .container-nav .container-navigation-options #container-menu-1 nav .menu-options {
+  display: flex;
+}
+#container-general .container-nav .container-navigation-options #container-menu-1 nav .menu-options .options .links {
+  color: black;
+  margin: 1rem;
+  font-family: "Quicksand", sans-serif;
+  text-transform: capitalize;
+}
+#container-general .container-nav .container-navigation-options #container-menu-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#container-general .container-nav .container-navigation-options #container-menu-2 nav .menu-options {
+  display: flex;
+  align-items: center;
+}
+#container-general .container-nav .container-navigation-options #container-menu-2 nav .menu-options .container-light-dark-mode {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 1.5rem;
+}
+#container-general .container-nav .container-navigation-options #container-menu-2 nav .menu-options .container-light-dark-mode #mode-sun {
+  cursor: pointer;
+  width: 3.5rem;
+  margin-right: 1.3rem;
+}
+#container-general .container-nav .container-navigation-options #container-menu-2 nav .menu-options .container-light-dark-mode #mode-moon {
+  cursor: pointer;
+  width: 2rem;
+}
+#container-general .container-nav .container-navigation-options #container-menu-2 nav .menu-options .options .links {
+  color: black;
+  margin: 1rem;
+  font-family: "Quicksand", sans-serif;
+  text-transform: capitalize;
+}
+#container-general .container-nav .container-navigation-options #container-menu-2 nav .menu-options .options #sign {
+  color: white;
+  background-color: black;
+  padding: 1rem;
 }/*# sourceMappingURL=style.css.map */

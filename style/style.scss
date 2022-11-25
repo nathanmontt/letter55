@@ -26,26 +26,80 @@ $c2: white;
 
 #container-general {
   .container-nav {
+    padding: 2rem;
     .container-navigation-options {
-      #container-menu-1 {
-        .company-name {}
+      display: flex;
+      justify-content: space-between;
 
+      #container-menu-1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .company-name {
+          font-family: $font3;
+          font-weight: 700;
+          font-size: 1.5rem;
+          text-transform: capitalize;
+          margin-right: 2rem;
+        }
+        
         nav {
           .menu-options {
+            display: flex;
             .options {
-              .links {}
+              .links {
+                color: $c1;
+                margin: 1rem;
+                font-family: $font3;
+                text-transform: capitalize;
+              }
             }
           }
         }
       }
 
       #container-menu-2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
         nav {
           .menu-options {
+            display: flex;
+            align-items: center;
+
+            .container-light-dark-mode {
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              // border: 3px solid darkblue;
+              margin-right: 1.5rem;
+
+              #mode-sun {
+                cursor: pointer;
+                width: 3.5rem;
+                margin-right: 1.3rem;
+              }
+              #mode-moon {
+                cursor: pointer;
+                width: 2rem;
+              }
+            }
+            
             .options {
-              #mode-sun {}
-              #mode-moon {}
-              .links {}
+              .links {
+                color: $c1;
+                margin: 1rem;
+                font-family: $font3;
+                text-transform: capitalize;
+              }
+
+              #sign {
+                color: $c2;
+                background-color: $c1;
+                padding: 1rem;
+              }
             }
           }
         }
