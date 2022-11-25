@@ -23,3 +23,33 @@ $c2: white;
 .hidden {
   display: none;
 }
+
+#container-general {
+  .container-nav {
+    .container-navigation-options {
+      #container-menu-1 {
+        .company-name {}
+
+        nav {
+          .menu-options {
+            .options {
+              .links {}
+            }
+          }
+        }
+      }
+
+      #container-menu-2 {
+        nav {
+          .menu-options {
+            .options {
+              #mode-sun {}
+              #mode-moon {}
+              .links {}
+            }
+          }
+        }
+      }
+    }
+  }
+}
