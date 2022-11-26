@@ -81,6 +81,7 @@ $c2: white;
                 width: 3.5rem;
                 margin-right: 1.3rem;
               }
+
               #mode-moon {
                 cursor: pointer;
                 width: 2rem;
@@ -101,6 +102,37 @@ $c2: white;
                 padding: 1rem;
               }
             }
+          }
+        }
+      }
+    }
+  }
+
+  main {
+    #container-display {
+      .container-section-1 {
+        .container-showcase-best-recipes {
+          .title-best-recipes {}
+          .description-best-recipes {}
+          button {
+            a {
+              #redirect-arrow {}
+            }
+          }
+        }
+      }
+
+      .container-section-2 {
+        .container-all-recipes {
+          .title-all-recipes {}
+          .link-all-recipes {}
+        }
+
+        .container-some-recipes {
+          .container-recipe {
+            .name-recipe {}
+            .prep-time {}
+            .serve-people-recipe {}
           }
         }
       }
