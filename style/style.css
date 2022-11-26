@@ -79,4 +79,14 @@
   color: white;
   background-color: black;
   padding: 1rem;
+}
+#container-general main #container-display .container-section-1 {
+  padding: 1rem 2rem 2rem 2rem;
+}
+#container-general main #container-display .container-section-1 .container-showcase-best-recipes {
+  background-image: url("/Furnace/assets/images/Rajesh-TP-1.jpg");
+  background-repeat: no-repeat;
+  background-size: 65%;
+  min-height: 30vh;
+  min-width: 10vw;
 }/*# sourceMappingURL=style.css.map */
