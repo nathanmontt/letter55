@@ -2,7 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500;700;900&display=swap");
 /*VARIABLES*/
 /*CSS RESET*/
 * {
@@ -30,7 +30,7 @@
   align-items: center;
 }
 #container-general .container-nav .container-navigation-options #container-menu-1 .company-name {
-  font-family: "Quicksand", sans-serif;
+  font-family: "Noto Sans JP", sans-serif;
   font-weight: 700;
   font-size: 1.5rem;
   text-transform: capitalize;
@@ -42,7 +42,7 @@
 #container-general .container-nav .container-navigation-options #container-menu-1 nav .menu-options .options .links {
   color: black;
   margin: 1rem;
-  font-family: "Quicksand", sans-serif;
+  font-family: "Noto Sans JP", sans-serif;
   text-transform: capitalize;
 }
 #container-general .container-nav .container-navigation-options #container-menu-2 {
@@ -72,7 +72,7 @@
 #container-general .container-nav .container-navigation-options #container-menu-2 nav .menu-options .options .links {
   color: black;
   margin: 1rem;
-  font-family: "Quicksand", sans-serif;
+  font-family: "Noto Sans JP", sans-serif;
   text-transform: capitalize;
 }
 #container-general .container-nav .container-navigation-options #container-menu-2 nav .menu-options .options #sign {
@@ -98,14 +98,14 @@
 }
 #container-general main #container-display .container-section-1 .container-showcase-best-recipes .container-text-best-recipes .title-best-recipes {
   font-size: 3rem;
-  font-family: "Quicksand", sans-serif;
+  font-family: "Noto Sans JP", sans-serif;
   font-weight: 600;
   text-transform: capitalize;
   color: white;
   margin-bottom: 1rem;
 }
 #container-general main #container-display .container-section-1 .container-showcase-best-recipes .container-text-best-recipes .description-best-recipes {
-  font-family: "Quicksand", sans-serif;
+  font-family: "Noto Sans JP", sans-serif;
   font-weight: 400;
   text-transform: capitalize;
   color: white;
@@ -132,7 +132,7 @@
 #container-general main #container-display .container-section-2 .container-all-recipes .title-all-recipes {
   padding: 1rem 0 0 0;
   margin: 0 0 0.2rem 0;
-  font-family: "Quicksand", sans-serif;
+  font-family: "Noto Sans JP", sans-serif;
   font-weight: 600;
   font-size: 2rem;
   text-transform: uppercase;
@@ -141,7 +141,7 @@
 #container-general main #container-display .container-section-2 .container-all-recipes p {
   padding: 0 0 1rem 0;
   margin: 0 0 0.2rem 0;
-  font-family: "Quicksand", sans-serif;
+  font-family: "Noto Sans JP", sans-serif;
   text-transform: capitalize;
 }
 #container-general main #container-display .container-section-2 .container-all-recipes p .link-all-recipes {
