@@ -115,21 +115,46 @@ $c2: white;
       .container-section-1 {
         padding: 1rem 2rem 2rem 2rem;
         .container-showcase-best-recipes {
-          border: 3px solid green;
+          border: 5px solid green;
           background-image: url("/Furnace/assets/images/Rajesh-TP-1.jpg");
-          // background-position: left;
-          background-repeat: no-repeat;
-          background-size: 65%;
-          background-size: contain;
-          min-height: 70vh;
-          max-width: 60vw;
-          // width: 40rem;
+          // background-repeat: no-repeat;
+          // background-size: 20rem;
+          // background-size: contain;
+          min-height: 77vh;
+          max-width: 100vw;
 
-          .title-best-recipes {}
-          .description-best-recipes {}
-          button {
-            a {
-              #redirect-arrow {
+          .container-text-best-recipes{
+            padding: 4rem 4rem 0 4rem;
+            .title-best-recipes {
+              font-size: 3rem;
+              font-family: $font3;
+              font-weight: 600;
+              text-transform: capitalize;
+              color: $c2;
+              margin-bottom: 1.5rem;
+            }
+            
+            .description-best-recipes {
+              font-family: $font3;
+              font-weight: 400;
+              text-transform: capitalize;
+              color: $c2;
+              margin-bottom: 1.5rem;
+            }
+          }
+
+          #div-button{
+            padding: 0 0 0 4rem;
+            button {
+              background-color: transparent;
+              border: .01rem solid $c2;
+              border-radius: 10rem;
+              padding: 1rem;
+
+              a {
+                #redirect-arrow {
+                  width: 2rem;
+                }
               }
             }
           }
