@@ -62,12 +62,12 @@
 }
 #container-general .container-nav .container-navigation-options #container-menu-2 nav .menu-options .container-light-dark-mode #mode-sun {
   cursor: pointer;
-  width: 3.5rem;
-  margin-right: 1.3rem;
+  width: 2rem;
+  margin-right: 0.8rem;
 }
 #container-general .container-nav .container-navigation-options #container-menu-2 nav .menu-options .container-light-dark-mode #mode-moon {
   cursor: pointer;
-  width: 2rem;
+  width: 1.3rem;
 }
 #container-general .container-nav .container-navigation-options #container-menu-2 nav .menu-options .options .links {
   color: black;
@@ -81,14 +81,12 @@
   padding: 1rem;
 }
 #container-general main #container-display {
-  display: grid;
-  grid-template-columns: repeat(2, 30rem);
+  display: flex;
 }
 #container-general main #container-display .container-section-1 {
   padding: 0 3rem 0 2rem;
 }
 #container-general main #container-display .container-section-1 .container-showcase-best-recipes {
-  border: 5px solid green;
   background-image: url("/Furnace/assets/images/jirayu-koontholjinda-1.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -104,7 +102,7 @@
   font-weight: 600;
   text-transform: capitalize;
   color: white;
-  margin-bottom: 1.5rem;
+  margin-bottom: 1rem;
 }
 #container-general main #container-display .container-section-1 .container-showcase-best-recipes .container-text-best-recipes .description-best-recipes {
   font-family: "Quicksand", sans-serif;
@@ -127,29 +125,15 @@
 }
 #container-general main #container-display .container-section-2 {
   padding: 0 3rem 0 0;
-  position: relative;
 }
-#container-general main #container-display .container-section-2 .container-all-recipes::before {
-  position: absolute;
-  content: "";
-  border: 0.01rem solid black;
-  background-color: black;
-  min-width: 47vw;
-  margin-bottom: 5rem;
+#container-general main #container-display .container-section-2 .container-all-recipes {
+  text-align: center;
 }
-#container-general main #container-display .container-section-2 .container-all-recipes .title-all-recipes {
-  padding-top: 3rem;
+#container-general main #container-display .container-section-2 .container-all-recipes p .link-all-recipes {
+  border: 3px solid darkblue;
 }
 #container-general main #container-display .container-section-2 .container-some-recipes {
   padding-top: 2rem;
-}
-#container-general main #container-display .container-section-2 .container-some-recipes::before {
-  position: absolute;
-  content: "";
-  border: 0.01rem solid black;
-  background-color: black;
-  min-width: 47vw;
-  margin-bottom: 5rem;
 }
 #container-general main #container-display .container-section-2 .container-some-recipes .container-recipes .serve-people-recipes {
   width: 50%;

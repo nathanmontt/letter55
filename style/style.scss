@@ -68,23 +68,22 @@ $c2: white;
           .menu-options {
             display: flex;
             align-items: center;
-
+            
             .container-light-dark-mode {
               display: flex;
               justify-content: center;
               align-items: center;
-              // border: 3px solid darkblue;
               margin-right: 1.5rem;
 
               #mode-sun {
                 cursor: pointer;
-                width: 3.5rem;
-                margin-right: 1.3rem;
+                width: 2rem;
+                margin-right: .8rem;
               }
 
               #mode-moon {
                 cursor: pointer;
-                width: 2rem;
+                width: 1.3rem;
               }
             }
             
@@ -110,12 +109,10 @@ $c2: white;
 
   main {
     #container-display {
-      display: grid;
-      grid-template-columns: repeat(2, 30rem);
+      display: flex;
       .container-section-1 {
         padding: 0 3rem 0 2rem;
         .container-showcase-best-recipes {
-          border: 5px solid green;
           background-image: url("/Furnace/assets/images/jirayu-koontholjinda-1.jpg");
           background-repeat: no-repeat;
           background-size: cover;
@@ -130,7 +127,7 @@ $c2: white;
               font-weight: 600;
               text-transform: capitalize;
               color: $c2;
-              margin-bottom: 1.5rem;
+              margin-bottom: 1rem;
             }
             
             .description-best-recipes {
@@ -162,46 +159,28 @@ $c2: white;
 
       .container-section-2 {
         padding: 0 3rem 0 0;
-        position: relative;
         .container-all-recipes {
-          &::before {
-            position: absolute;
-            content: '';
-            border: .01rem solid $c1;
-            background-color: $c1;
-            min-width: 47vw;
-            margin-bottom: 5rem;
-          }
-
-          // &::after {
-          //   position: absolute;
-          //   content: '';
-          //   border: .01rem solid $c1;
-          //   background-color: $c1;
-          //   min-width: 47vw;
-          //   margin-top: 2rem;
-          // }
+          text-align: center;
 
           .title-all-recipes {
-            padding-top: 3rem;
+            // padding-top: 2rem;
           }
-          .link-all-recipes {}
+          
+          p {
+            // padding-bottom: 2rem;
+            .link-all-recipes {
+              border: 3px solid darkblue;
+            }
+          }
         }
 
         .container-some-recipes {
           padding-top: 2rem;
-          &::before {
-            position: absolute;
-            content: '';
-            border: .01rem solid $c1;
-            background-color: $c1;
-            min-width: 47vw;
-            margin-bottom: 5rem;
-          }
 
           .container-recipes {
             .container-text-recipes{
-              .name-recipes {}
+              .name-recipes {
+              }
               .prep-time-recipes {}
             }
 
