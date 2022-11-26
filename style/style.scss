@@ -111,20 +111,19 @@ $c2: white;
   main {
     #container-display {
       display: grid;
-      grid-template-columns: repeat(2, 1fr);
+      grid-template-columns: repeat(2, 30rem);
       .container-section-1 {
         padding: 0 3rem 0 2rem;
         .container-showcase-best-recipes {
           border: 5px solid green;
-          background-image: url("/Furnace/assets/images/Rajesh-TP-1.jpg");
-          // background-repeat: no-repeat;
-          // background-size: 20rem;
-          // background-size: contain;
+          background-image: url("/Furnace/assets/images/jirayu-koontholjinda-1.jpg");
+          background-repeat: no-repeat;
+          background-size: cover;
           min-height: 80vh;
-          max-width: 100vw;
+          max-width: 40vw;
 
           .container-text-best-recipes{
-            padding: 4rem 4rem 0 4rem;
+            padding: 2rem 2rem 0 2rem;
             .title-best-recipes {
               font-size: 3rem;
               font-family: $font3;
@@ -144,7 +143,7 @@ $c2: white;
           }
 
           #div-button{
-            padding: 0 0 0 4rem;
+            padding: 0 0 0 2rem;
             button {
               background-color: transparent;
               border: .01rem solid $c2;
@@ -205,8 +204,10 @@ $c2: white;
               .name-recipes {}
               .prep-time-recipes {}
             }
+
             .serve-people-recipes {
-              margin-top: 1.8rem;
+              width: 50%;
+              margin-top: 1.3rem;
             }
           }
         }
