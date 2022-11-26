@@ -129,11 +129,24 @@
 #container-general main #container-display .container-section-2 .container-all-recipes {
   text-align: center;
 }
-#container-general main #container-display .container-section-2 .container-all-recipes p .link-all-recipes {
-  border: 3px solid darkblue;
+#container-general main #container-display .container-section-2 .container-all-recipes .title-all-recipes {
+  padding: 1rem 0 0 0;
+  margin: 0 0 0.2rem 0;
+  font-family: "Quicksand", sans-serif;
+  font-weight: 600;
+  font-size: 2rem;
+  text-transform: uppercase;
+  letter-spacing: 0.8rem;
 }
-#container-general main #container-display .container-section-2 .container-some-recipes {
-  padding-top: 2rem;
+#container-general main #container-display .container-section-2 .container-all-recipes p {
+  padding: 0 0 1rem 0;
+  margin: 0 0 0.2rem 0;
+  font-family: "Quicksand", sans-serif;
+  text-transform: capitalize;
+}
+#container-general main #container-display .container-section-2 .container-all-recipes p .link-all-recipes {
+  color: black;
+  text-decoration: underline;
 }
 #container-general main #container-display .container-section-2 .container-some-recipes .container-recipes .serve-people-recipes {
   width: 50%;

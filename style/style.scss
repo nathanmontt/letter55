@@ -112,6 +112,7 @@ $c2: white;
       display: flex;
       .container-section-1 {
         padding: 0 3rem 0 2rem;
+
         .container-showcase-best-recipes {
           background-image: url("/Furnace/assets/images/jirayu-koontholjinda-1.jpg");
           background-repeat: no-repeat;
@@ -141,6 +142,7 @@ $c2: white;
 
           #div-button{
             padding: 0 0 0 2rem;
+
             button {
               background-color: transparent;
               border: .01rem solid $c2;
@@ -163,20 +165,29 @@ $c2: white;
           text-align: center;
 
           .title-all-recipes {
-            // padding-top: 2rem;
+            padding: 1rem 0 0 0;
+            margin: 0 0 .2rem 0;
+            font-family: $font3;
+            font-weight: 600;
+            font-size: 2rem;
+            text-transform: uppercase;
+            letter-spacing: .8rem;
           }
           
           p {
-            // padding-bottom: 2rem;
+            padding: 0 0 1rem 0;
+            margin: 0 0 .2rem 0;
+            font-family: $font3;
+            text-transform: capitalize;
+
             .link-all-recipes {
-              border: 3px solid darkblue;
+              color: $c1;
+              text-decoration: underline;
             }
           }
         }
 
         .container-some-recipes {
-          padding-top: 2rem;
-
           .container-recipes {
             .container-text-recipes{
               .name-recipes {
