@@ -110,15 +110,20 @@ $c2: white;
 
   main {
     #container-display {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
       .container-section-1 {
         padding: 1rem 2rem 2rem 2rem;
         .container-showcase-best-recipes {
+          border: 3px solid green;
           background-image: url("/Furnace/assets/images/Rajesh-TP-1.jpg");
           // background-position: left;
           background-repeat: no-repeat;
           background-size: 65%;
-          min-height: 30vh;
-          min-width: 10vw;
+          background-size: contain;
+          min-height: 70vh;
+          max-width: 60vw;
+          // width: 40rem;
 
           .title-best-recipes {}
           .description-best-recipes {}
