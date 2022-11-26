@@ -113,14 +113,14 @@ $c2: white;
       display: grid;
       grid-template-columns: repeat(2, 1fr);
       .container-section-1 {
-        padding: 1rem 2rem 2rem 2rem;
+        padding: 0 3rem 0 2rem;
         .container-showcase-best-recipes {
           border: 5px solid green;
           background-image: url("/Furnace/assets/images/Rajesh-TP-1.jpg");
           // background-repeat: no-repeat;
           // background-size: 20rem;
           // background-size: contain;
-          min-height: 77vh;
+          min-height: 80vh;
           max-width: 100vw;
 
           .container-text-best-recipes{
@@ -162,16 +162,52 @@ $c2: white;
       }
 
       .container-section-2 {
+        padding: 0 3rem 0 0;
+        position: relative;
         .container-all-recipes {
-          .title-all-recipes {}
+          &::before {
+            position: absolute;
+            content: '';
+            border: .01rem solid $c1;
+            background-color: $c1;
+            min-width: 47vw;
+            margin-bottom: 5rem;
+          }
+
+          // &::after {
+          //   position: absolute;
+          //   content: '';
+          //   border: .01rem solid $c1;
+          //   background-color: $c1;
+          //   min-width: 47vw;
+          //   margin-top: 2rem;
+          // }
+
+          .title-all-recipes {
+            padding-top: 3rem;
+          }
           .link-all-recipes {}
         }
 
         .container-some-recipes {
-          .container-recipe {
-            .name-recipe {}
-            .prep-time {}
-            .serve-people-recipe {}
+          padding-top: 2rem;
+          &::before {
+            position: absolute;
+            content: '';
+            border: .01rem solid $c1;
+            background-color: $c1;
+            min-width: 47vw;
+            margin-bottom: 5rem;
+          }
+
+          .container-recipes {
+            .container-text-recipes{
+              .name-recipes {}
+              .prep-time-recipes {}
+            }
+            .serve-people-recipes {
+              margin-top: 1.8rem;
+            }
           }
         }
       }

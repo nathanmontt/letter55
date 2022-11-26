@@ -85,12 +85,12 @@
   grid-template-columns: repeat(2, 1fr);
 }
 #container-general main #container-display .container-section-1 {
-  padding: 1rem 2rem 2rem 2rem;
+  padding: 0 3rem 0 2rem;
 }
 #container-general main #container-display .container-section-1 .container-showcase-best-recipes {
   border: 5px solid green;
   background-image: url("/Furnace/assets/images/Rajesh-TP-1.jpg");
-  min-height: 77vh;
+  min-height: 80vh;
   max-width: 100vw;
 }
 #container-general main #container-display .container-section-1 .container-showcase-best-recipes .container-text-best-recipes {
@@ -122,4 +122,33 @@
 }
 #container-general main #container-display .container-section-1 .container-showcase-best-recipes #div-button button a #redirect-arrow {
   width: 2rem;
+}
+#container-general main #container-display .container-section-2 {
+  padding: 0 3rem 0 0;
+  position: relative;
+}
+#container-general main #container-display .container-section-2 .container-all-recipes::before {
+  position: absolute;
+  content: "";
+  border: 0.01rem solid black;
+  background-color: black;
+  min-width: 47vw;
+  margin-bottom: 5rem;
+}
+#container-general main #container-display .container-section-2 .container-all-recipes .title-all-recipes {
+  padding-top: 3rem;
+}
+#container-general main #container-display .container-section-2 .container-some-recipes {
+  padding-top: 2rem;
+}
+#container-general main #container-display .container-section-2 .container-some-recipes::before {
+  position: absolute;
+  content: "";
+  border: 0.01rem solid black;
+  background-color: black;
+  min-width: 47vw;
+  margin-bottom: 5rem;
+}
+#container-general main #container-display .container-section-2 .container-some-recipes .container-recipes .serve-people-recipes {
+  margin-top: 1.8rem;
 }/*# sourceMappingURL=style.css.map */
