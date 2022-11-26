@@ -188,16 +188,21 @@ $c2: white;
         }
 
         .container-some-recipes {
-          .container-recipes {
-            .container-text-recipes{
-              .name-recipes {
+          .container-recipe-display-1{
+            .container-recipes-itself {
+              .recipes-image {
+                width: 10%;
+                margin-top: 1.3rem;
               }
-              .prep-time-recipes {}
-            }
 
-            .serve-people-recipes {
-              width: 50%;
-              margin-top: 1.3rem;
+              .container-text-recipes{
+                .name-recipes {
+                }
+                .prep-time-recipes {}
+              }
+
+              .serve-people-recipes {
+              }
             }
           }
         }
