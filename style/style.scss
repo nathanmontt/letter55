@@ -159,9 +159,11 @@ $c2: white;
       }
 
       .container-section-2 {
-        padding: 10rem 5rem 0 0;
+        // padding: 10rem 5rem 0 0;
+        border: 3px solid darkgoldenrod;
+        max-width: max-content;
         .container-all-recipes {
-          text-align: center;
+          // text-align: center;
           
           .title-all-recipes {
             padding: 1rem 0 0 0;
@@ -196,8 +198,8 @@ $c2: white;
               }
               
               .container-text-recipes{
-                display: flex;
-                flex-direction: column;
+                // display: flex;
+                // flex-direction: column;
                 border: 3px solid green;
                 .name-recipes {
                 }

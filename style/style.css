@@ -123,10 +123,10 @@
   width: 2rem;
 }
 #container-general main #container-display .container-section-2 {
-  padding: 10rem 5rem 0 0;
-}
-#container-general main #container-display .container-section-2 .container-all-recipes {
-  text-align: center;
+  border: 3px solid darkgoldenrod;
+  max-width: -webkit-max-content;
+  max-width: -moz-max-content;
+  max-width: max-content;
 }
 #container-general main #container-display .container-section-2 .container-all-recipes .title-all-recipes {
   padding: 1rem 0 0 0;
@@ -151,7 +151,5 @@
   width: 30%;
 }
 #container-general main #container-display .container-section-2 .container-some-recipes .container-recipe-display-1 .container-recipes-itself .container-text-recipes {
-  display: flex;
-  flex-direction: column;
   border: 3px solid green;
 }/*# sourceMappingURL=style.css.map */
