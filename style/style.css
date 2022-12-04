@@ -15,12 +15,4 @@
 
 .hidden {
   display: none;
-}
-
-body {
-  background-image: url("/Furnace/assets/images/Wasa-Crispbread-1.jpg");
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  min-height: 100vh;
 }/*# sourceMappingURL=style.css.map */
