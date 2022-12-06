@@ -26,4 +26,35 @@ $c2: white;
 
 body {}
 
-.container-general {}
+.container-general {
+  .container-navigation-bar {
+    #logo {
+    }
+
+    nav {
+      #menu-options {
+        .options {
+          .container-modes {
+            #sun {}
+            #moon {}
+          }
+        }
+      }
+    }
+  }
+
+  main {
+    .container-main {
+      .container-text {
+        .title-company {}
+        .description {}
+      }
+
+      .container-cta-btn {
+        #product-link {
+          button {}
+        }
+      }
+    }
+  }
+}
