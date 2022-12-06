@@ -24,19 +24,58 @@ $c2: white;
   display: none;
 }
 
-body {}
+body {
+  background-image: url("/Furnace/assets/images/Duncan-Kidd-1.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+}
 
 .container-general {
   .container-navigation-bar {
+    display: flex;
+    justify-content: space-between;
+
+    padding: 1rem;
+
     #logo {
+      width: 3rem;
+      height: 3rem;
     }
 
     nav {
       #menu-options {
         .options {
+          // border: 3px solid lightcoral;
+          margin-bottom: .7rem;
+          text-align: end;
+          a {
+            text-transform: uppercase;
+            font-family: $font2;
+            color: $c2;
+
+            &:hover {
+              font-weight: 700;
+            }
+          }
+
           .container-modes {
-            #sun {}
-            #moon {}
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+            
+            #sun {
+              cursor: pointer;
+              width: 2rem;
+              margin-right: .4rem;
+            }
+
+            #moon {
+              cursor: pointer;
+              width: 1.3rem;
+              height: 1.3rem;
+            }
           }
         }
       }
@@ -52,7 +91,10 @@ body {}
 
       .container-cta-btn {
         #product-link {
-          button {}
+          button {
+            padding: .5rem 1rem;
+            font-family: $font2;
+          }
         }
       }
     }
