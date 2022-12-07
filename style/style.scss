@@ -10,6 +10,7 @@ $font2: 'Nanum Gothic', sans-serif;
 $font3: 'Noto Sans JP', sans-serif;
 $c1: black;
 $c2: white;
+$c3: #efefefdf;
 
 /*CSS RESET*/
 * {
@@ -25,7 +26,7 @@ $c2: white;
 }
 
 body {
-  background-image: url("/Furnace/assets/images/Austin-Ban-1.jpg");
+  background-image: url("/Furnace/assets/images/Niklas-Ohlrogge-1.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -39,6 +40,9 @@ body {
 
     padding: 1rem;
 
+    @media screen and(min-width: 768px) {
+    }
+
     #logo {
       width: 3rem;
       height: 3rem;
@@ -47,7 +51,6 @@ body {
     nav {
       #menu-options {
         .options {
-          // border: 3px solid lightcoral;
           margin-bottom: .7rem;
           text-align: end;
           a {
@@ -84,32 +87,52 @@ body {
 
   main {
     .container-main {
-      position: absolute;
+        position: absolute;
         top: 0;
         right: 0;
         left: 0;
         bottom: 0;
         
-        margin-top: 16rem;
+        margin-top: 13rem;
+        padding: 2rem;
+
       .container-text {
-        .title-company {}
-        .description {}
+        color: $c2;
+
+        .title-company {
+          text-transform: uppercase;
+          font-family: $font3;
+          font-size: 2rem;
+          font-weight: 900;
+          // width: 15rem;
+          // border: 3px solid lightcyan;
+        }
+
+        .description {
+          font-family: $font3;
+          color: $c3;
+          margin: .3rem 0 .8rem 0;
+        }
       }
 
       .container-cta-btn {
-        // position: absolute;
-        // top: 0;
-        // right: 0;
-        // left: 0;
-        // bottom: 0;
-        
-        // margin-top: 16rem;
-        // text-align: center;
-
         #product-link {
           button {
+            cursor: pointer;
             padding: .5rem 1rem;
             font-family: $font2;
+            font-weight: 600;
+            text-transform: uppercase;
+            color: $c2;
+            border: .01rem solid $c2;
+            background-color: transparent;
+
+            transition: background-color .5s, color .5s;
+            
+            &:hover {
+              background-color: $c2;
+              color: $c1;
+            }
           }
         }
       }

@@ -18,7 +18,7 @@
 }
 
 body {
-  background-image: url("/Furnace/assets/images/Austin-Ban-1.jpg");
+  background-image: url("/Furnace/assets/images/Niklas-Ohlrogge-1.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -67,9 +67,35 @@ body {
   right: 0;
   left: 0;
   bottom: 0;
-  margin-top: 16rem;
+  margin-top: 13rem;
+  padding: 2rem;
+}
+.container-general main .container-main .container-text {
+  color: white;
+}
+.container-general main .container-main .container-text .title-company {
+  text-transform: uppercase;
+  font-family: "Noto Sans JP", sans-serif;
+  font-size: 2rem;
+  font-weight: 900;
+}
+.container-general main .container-main .container-text .description {
+  font-family: "Noto Sans JP", sans-serif;
+  color: rgba(239, 239, 239, 0.8745098039);
+  margin: 0.3rem 0 0.8rem 0;
 }
 .container-general main .container-main .container-cta-btn #product-link button {
+  cursor: pointer;
   padding: 0.5rem 1rem;
   font-family: "Nanum Gothic", sans-serif;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: white;
+  border: 0.01rem solid white;
+  background-color: transparent;
+  transition: background-color 0.5s, color 0.5s;
+}
+.container-general main .container-main .container-cta-btn #product-link button:hover {
+  background-color: white;
+  color: black;
 }/*# sourceMappingURL=style.css.map */
