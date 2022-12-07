@@ -46,17 +46,17 @@ body {
 .container-general .container-navigation-bar nav #menu-options .options a:hover {
   font-weight: 700;
 }
-.container-general .container-navigation-bar nav #menu-options .options .container-modes {
+.container-general .container-navigation-bar nav #menu-options .container-modes {
   display: flex;
   align-items: center;
   justify-content: flex-end;
 }
-.container-general .container-navigation-bar nav #menu-options .options .container-modes #sun {
+.container-general .container-navigation-bar nav #menu-options .container-modes #sun {
   cursor: pointer;
   width: 2rem;
   margin-right: 0.4rem;
 }
-.container-general .container-navigation-bar nav #menu-options .options .container-modes #moon {
+.container-general .container-navigation-bar nav #menu-options .container-modes #moon {
   cursor: pointer;
   width: 1.3rem;
   height: 1.3rem;
