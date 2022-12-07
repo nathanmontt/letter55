@@ -25,7 +25,7 @@ $c2: white;
 }
 
 body {
-  background-image: url("/Furnace/assets/images/Duncan-Kidd-1.jpg");
+  background-image: url("/Furnace/assets/images/Austin-Ban-1.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -84,12 +84,28 @@ body {
 
   main {
     .container-main {
+      position: absolute;
+        top: 0;
+        right: 0;
+        left: 0;
+        bottom: 0;
+        
+        margin-top: 16rem;
       .container-text {
         .title-company {}
         .description {}
       }
 
       .container-cta-btn {
+        // position: absolute;
+        // top: 0;
+        // right: 0;
+        // left: 0;
+        // bottom: 0;
+        
+        // margin-top: 16rem;
+        // text-align: center;
+
         #product-link {
           button {
             padding: .5rem 1rem;
