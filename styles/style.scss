@@ -19,13 +19,31 @@ $c3: beige;
 
 .container-general {
   .container-navbar {
-    .logo {}
-    .menu-hamb {}
+    background-image: url("/letter55/assets/Birmingham-Museums-Trust-5.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    
+    .navigation{
+      display: flex;
+      justify-content: space-between;
+      border: 3px solid goldenrod;
+      .logo {
+        width: 5rem;
+      }
+      
+      
+      nav {
+        .menu-hamb {
+          width: 2rem;
+          height: 2rem;      
+        }
 
-    nav {
-      #menu-options {
-        .options {
-          .links {}
+        #menu-options {
+          .options {
+            .links {}
+          }
         }
       }
     }
