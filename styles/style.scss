@@ -1,0 +1,33 @@
+/*VARIABLES*/
+$c1: black;
+$c2: white;
+$c3: beige;
+
+/*CSS RESET*/
+* {
+  text-decoration: none;
+  list-style-type: none;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+}
+
+.hidden {
+  display: none;
+}
+
+.container-general {
+  .container-navbar {
+    .logo {}
+    .menu-hamb {}
+
+    nav {
+      #menu-options {
+        .options {
+          .links {}
+        }
+      }
+    }
+  }
+}
