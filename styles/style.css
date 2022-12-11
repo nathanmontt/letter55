@@ -22,7 +22,6 @@
   min-height: 100vh;
 }
 .container-general .container-navbar .navigation {
-  border: 3px solid white;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -39,4 +38,19 @@
   font-family: "Oswald", sans-serif;
   text-transform: uppercase;
   color: white;
+}
+.container-general .container-navbar .navigation nav #menu-options .options .links:hover {
+  font-weight: 500;
+}
+.container-general .container-navbar .navigation nav #menu-options .options .container-mode {
+  margin-top: 1rem;
+}
+.container-general .container-navbar .navigation nav #menu-options .options .container-mode #sun {
+  margin-right: 0.3rem;
+  width: 1.4rem;
+  cursor: pointer;
+}
+.container-general .container-navbar .navigation nav #menu-options .options .container-mode #moon {
+  cursor: pointer;
+  width: 1.4rem;
 }/*# sourceMappingURL=style.css.map */

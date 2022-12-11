@@ -29,7 +29,6 @@ $font1: 'Oswald', sans-serif;
     min-height: 100vh;
     
     .navigation{
-      border: 3px solid white;
       display: flex;
       justify-content: space-between;
       align-items: center;
@@ -42,13 +41,31 @@ $font1: 'Oswald', sans-serif;
       nav {
         #menu-options {
           .options {
-            // border: 3px solid wheat;
             margin: .5rem;
             text-align: end;
+
             .links {
               font-family: $font1;
               text-transform: uppercase;
               color: $c2;
+
+              &:hover {
+                font-weight: 500;
+              }
+            }
+
+            .container-mode {
+              margin-top: 1rem;
+              #sun {
+                margin-right: .3rem;
+                width: 1.4rem;
+                cursor: pointer;
+              }
+              
+              #moon {
+                cursor: pointer;
+                width: 1.4rem;
+              }
             }
           }
         }
