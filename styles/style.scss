@@ -22,7 +22,7 @@ $font1: 'Oswald', sans-serif;
 
 .container-general {
   .container-navbar {
-    background-image: url("/letter55/assets/Emma-Raphael-1.jpg");
+    background-image: url("/letter55/assets/Jack-Hunter-1.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -51,7 +51,6 @@ $font1: 'Oswald', sans-serif;
         #menu-options {
           display: flex;
           align-items: center;
-          // border: 3px solid green;
           
           .options {
             margin: .7rem;
@@ -124,6 +123,15 @@ $font1: 'Oswald', sans-serif;
             border: .01rem solid $c1;
           }
         }
+      }
+    }
+  }
+
+  main {
+    .container-main {
+      .container-text-concept {
+        .title {}
+        .description {}
       }
     }
   }
