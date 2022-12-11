@@ -22,7 +22,7 @@ $font1: 'Oswald', sans-serif;
 
 .container-general {
   .container-navbar {
-    background-image: url("/letter55/assets/Europeana-2.jpeg");
+    background-image: url("/letter55/assets/Emma-Raphael-1.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -32,7 +32,8 @@ $font1: 'Oswald', sans-serif;
       display: flex;
       justify-content: space-between;
       align-items: center;
-
+      padding: 1rem;
+      
       .logo {
         width: 5rem;
         height: 5rem;
@@ -40,24 +41,25 @@ $font1: 'Oswald', sans-serif;
       
       nav {
         #menu-options {
+          display: flex;
+          align-items: center;
+          
           .options {
-            margin: .5rem;
+            margin: .7rem;
+            // border: 3px solid green;
             text-align: end;
-
+            
             .links {
+              color: $c2;
               font-family: $font1;
               text-transform: uppercase;
-              color: $c2;
-
-              &:hover {
-                font-weight: 700;
-              }
             }
-
+            
             .container-mode {
-              margin-top: 1rem;
+              display: flex;
+              flex-direction: column;
               #sun {
-                margin-right: .3rem;
+                margin-bottom: .9rem;
                 width: 1.4rem;
                 cursor: pointer;
               }
