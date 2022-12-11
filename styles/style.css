@@ -46,14 +46,23 @@
 }
 .container-general .container-navbar .navigation nav #menu-options .options .container-mode {
   display: flex;
-  flex-direction: column;
+  align-items: center;
 }
 .container-general .container-navbar .navigation nav #menu-options .options .container-mode #sun {
-  margin-bottom: 0.9rem;
+  margin-right: 1rem;
   width: 1.4rem;
   cursor: pointer;
 }
 .container-general .container-navbar .navigation nav #menu-options .options .container-mode #moon {
   cursor: pointer;
   width: 1.4rem;
+}
+.container-general .container-navbar .container-hero-section .hero-title {
+  font-family: "Oswald", sans-serif;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 2rem;
+  color: white;
+  width: 20rem;
+  border: 3px solid green;
 }/*# sourceMappingURL=style.css.map */
