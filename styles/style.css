@@ -15,7 +15,7 @@
 }
 
 .container-general .container-navbar {
-  background-image: url("/letter55/assets/Europeana-2.jpg");
+  background-image: url("/letter55/assets/Europeana-2.jpeg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -40,7 +40,7 @@
   color: white;
 }
 .container-general .container-navbar .navigation nav #menu-options .options .links:hover {
-  font-weight: 500;
+  font-weight: 700;
 }
 .container-general .container-navbar .navigation nav #menu-options .options .container-mode {
   margin-top: 1rem;
