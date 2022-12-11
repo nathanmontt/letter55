@@ -27,6 +27,14 @@ $font1: 'Oswald', sans-serif;
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 100vh;
+
+    @media screen and(min-width: 450px) {
+      // background-image: url("");
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      min-height: 100vh;
+    }
     
     .navigation{
       display: flex;
