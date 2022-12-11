@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap");
 /*VARIABLES*/
 /*CSS RESET*/
 * {
@@ -14,21 +15,28 @@
 }
 
 .container-general .container-navbar {
-  background-image: url("/letter55/assets/Birmingham-Museums-Trust-5.jpg");
+  background-image: url("/letter55/assets/Europeana-2.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   min-height: 100vh;
 }
 .container-general .container-navbar .navigation {
+  border: 3px solid white;
   display: flex;
   justify-content: space-between;
-  border: 3px solid goldenrod;
+  align-items: center;
 }
 .container-general .container-navbar .navigation .logo {
   width: 5rem;
+  height: 5rem;
 }
-.container-general .container-navbar .navigation nav .menu-hamb {
-  width: 2rem;
-  height: 2rem;
+.container-general .container-navbar .navigation nav #menu-options .options {
+  margin: 0.5rem;
+  text-align: end;
+}
+.container-general .container-navbar .navigation nav #menu-options .options .links {
+  font-family: "Oswald", sans-serif;
+  text-transform: uppercase;
+  color: white;
 }/*# sourceMappingURL=style.css.map */

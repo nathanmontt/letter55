@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
+
 /*VARIABLES*/
 $c1: black;
 $c2: white;
 $c3: beige;
+$font1: 'Oswald', sans-serif;
 
 /*CSS RESET*/
 * {
@@ -19,30 +22,34 @@ $c3: beige;
 
 .container-general {
   .container-navbar {
-    background-image: url("/letter55/assets/Birmingham-Museums-Trust-5.jpg");
+    background-image: url("/letter55/assets/Europeana-2.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 100vh;
     
     .navigation{
+      border: 3px solid white;
       display: flex;
       justify-content: space-between;
-      border: 3px solid goldenrod;
+      align-items: center;
+
       .logo {
         width: 5rem;
+        height: 5rem;
       }
       
-      
       nav {
-        .menu-hamb {
-          width: 2rem;
-          height: 2rem;      
-        }
-
         #menu-options {
           .options {
-            .links {}
+            // border: 3px solid wheat;
+            margin: .5rem;
+            text-align: end;
+            .links {
+              font-family: $font1;
+              text-transform: uppercase;
+              color: $c2;
+            }
           }
         }
       }
