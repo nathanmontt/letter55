@@ -129,28 +129,37 @@ $font1: 'Oswald', sans-serif;
 
   main {
     .container-main {
-      .container-text-concept {
-        .title {
-          font-family: $font1;
-          text-transform: uppercase;
-          font-size: 1.5rem;
-          font-weight: 400;
-          padding: 1rem 0 1rem 1rem;
+      .container-main-section{
+        .container-text-concept {
+          .title {
+            font-family: $font1;
+            text-transform: uppercase;
+            font-size: 1.5rem;
+            font-weight: 400;
+            padding: 1rem 0 1rem 1rem;
+          }
+          
+          .description {
+            font-size: 1.20rem;
+            font-family: $font1;
+            font-weight: 200;
+            padding: 0 1rem 1rem 1rem;
+          }
         }
-        
-        .description {
-          font-size: 1.20rem;
-          font-family: $font1;
-          font-weight: 200;
-          padding: 0 1rem 1rem 1rem;
-        }
-      }
 
-      .container-video-showcase {
-        video {
-          width: 100%;
-          padding: 0 1rem 0 1rem;
-          source {
+        .container-video-showcase {
+          video {
+            width: 100%;
+            padding: 0 1rem 1rem 1rem;
+            source {}
+          }
+        }
+
+        .container-links {
+          .menu-links {
+            .links {
+              a {}
+            }
           }
         }
       }
