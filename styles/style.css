@@ -97,6 +97,9 @@
   background-color: black;
   border: 0.01rem solid black;
 }
+.container-general main .container-main .container-main-section {
+  min-height: 100vh;
+}
 .container-general main .container-main .container-main-section .container-text-concept .title {
   font-family: "Oswald", sans-serif;
   text-transform: uppercase;
@@ -113,4 +116,26 @@
 .container-general main .container-main .container-main-section .container-video-showcase video {
   width: 100%;
   padding: 0 1rem 1rem 1rem;
+}
+.container-general main .container-main .container-main-section .container-links .menu-links {
+  padding: 0 1rem 0 1rem;
+}
+.container-general main .container-main .container-main-section .container-links .menu-links .links {
+  color: gray;
+}
+.container-general main .container-main .container-main-section .container-links .menu-links .links:first-child {
+  border: 0.01rem;
+  border-style: solid none none none;
+}
+.container-general main .container-main .container-main-section .container-links .menu-links .links:last-child {
+  border: 0.01rem;
+  border-style: none none solid none;
+}
+.container-general main .container-main .container-main-section .container-links .menu-links .links a {
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  color: black;
+  margin: 0 0 0 2rem;
 }/*# sourceMappingURL=style.css.map */

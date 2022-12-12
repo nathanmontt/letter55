@@ -96,7 +96,6 @@ $font1: 'Oswald', sans-serif;
         font-weight: 600;
         font-size: 2rem;
         color: $c2;
-        // border: 3px solid green;
 
         span {}
       }
@@ -130,6 +129,7 @@ $font1: 'Oswald', sans-serif;
   main {
     .container-main {
       .container-main-section{
+        min-height: 100vh;
         .container-text-concept {
           .title {
             font-family: $font1;
@@ -157,8 +157,34 @@ $font1: 'Oswald', sans-serif;
 
         .container-links {
           .menu-links {
+            padding: 0 1rem 0 1rem;
+
             .links {
-              a {}
+              color: gray;
+
+              &:first-child {
+                border: .01rem;
+                border-style: solid none none none;
+              }
+
+              &:last-child {
+                border: .01rem;
+                border-style: none none solid none;
+              }
+
+              
+
+
+              // border: .01rem;
+              // border-style: solid none solid none;
+              a {
+                font-family: $font1;
+                font-weight: 400;
+                font-size: 1.2rem;
+                text-transform: uppercase;
+                color: $c1;
+                margin: 0 0 0 2rem;
+              }
             }
           }
         }
