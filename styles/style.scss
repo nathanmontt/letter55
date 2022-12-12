@@ -169,14 +169,19 @@ $font1: 'Oswald', sans-serif;
 
               &:last-child {
                 border: .01rem;
-                border-style: none none solid none;
+                border-style: solid none solid none;
               }
 
-              
+              &:nth-child(2), &:nth-child(3) {
+                border: .01rem;
+                border-style: solid none none none;
+              }
 
+              // &:nth-child(3) {
+              //   border: .01rem;
+              //   border-style: solid none none none;
+              // }
 
-              // border: .01rem;
-              // border-style: solid none solid none;
               a {
                 font-family: $font1;
                 font-weight: 400;
