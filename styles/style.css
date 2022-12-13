@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif+Khmer:wght@100;200;300;400;500;600;700;800;900&display=swap");
 /*VARIABLES*/
 /*CSS RESET*/
 * {
@@ -129,9 +130,10 @@
 }
 .container-general main .container-main .container-main-section .container-links .menu-links .links:last-child {
   border: 0.01rem;
+  margin-bottom: 1rem;
   border-style: solid none solid none;
 }
-.container-general main .container-main .container-main-section .container-links .menu-links .links:nth-child(2), .container-general main .container-main .container-main-section .container-links .menu-links .links:nth-child(3), .container-general main .container-main .container-main-section .container-links .menu-links .links:nth-child(4), .container-general main .container-main .container-main-section .container-links .menu-links .links:nth-child(5), .container-general main .container-main .container-main-section .container-links .menu-links .links:nth-child(6), .container-general main .container-main .container-main-section .container-links .menu-links .links:nth-child(7), .container-general main .container-main .container-main-section .container-links .menu-links .links:nth-child(8) {
+.container-general main .container-main .container-main-section .container-links .menu-links .links:nth-child(2), .container-general main .container-main .container-main-section .container-links .menu-links .links:nth-child(3), .container-general main .container-main .container-main-section .container-links .menu-links .links:nth-child(4), .container-general main .container-main .container-main-section .container-links .menu-links .links:nth-child(5), .container-general main .container-main .container-main-section .container-links .menu-links .links:nth-child(6), .container-general main .container-main .container-main-section .container-links .menu-links .links:nth-child(7), .container-general main .container-main .container-main-section .container-links .menu-links .links:nth-child(8), .container-general main .container-main .container-main-section .container-links .menu-links .links:nth-child(9) {
   border: 0.01rem;
   border-style: solid none none none;
 }
@@ -142,4 +144,35 @@
   text-transform: uppercase;
   color: black;
   margin: 0 0 0 2rem;
+}
+.container-general footer {
+  background-color: black;
+  color: white;
+}
+.container-general footer .container-left-top {
+  padding: 1rem;
+}
+.container-general footer .container-left-top .container-logo {
+  display: flex;
+  align-items: center;
+}
+.container-general footer .container-left-top .container-logo .name-company {
+  letter-spacing: 0.3rem;
+  font-family: "Noto Serif Khmer", serif;
+  font-weight: 400;
+  font-size: 2rem;
+  color: white;
+}
+.container-general footer .container-left-top .container-logo .logo-footer {
+  width: 5rem;
+}
+.container-general footer .container-left-top .container-links-footer .links-footer li:nth-child(1), .container-general footer .container-left-top .container-links-footer .links-footer li:nth-child(2) {
+  margin-bottom: 0.6rem;
+}
+.container-general footer .container-left-top .container-links-footer .links-footer li a {
+  font-family: "Noto Serif Khmer", serif;
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: 0.3rem;
+  color: white;
 }/*# sourceMappingURL=style.css.map */
