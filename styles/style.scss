@@ -319,8 +319,13 @@ $font2: 'Noto Serif Khmer', serif;
       }
 
       #design {
-        
-        a {}
+        font-family: $font1;
+        font-weight: 200;
+        letter-spacing: .1rem;
+
+        a {
+          color: $c2;
+        }
       }
     }
   }

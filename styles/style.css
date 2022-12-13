@@ -237,4 +237,12 @@
 .container-general footer .container-right-bottom form button:hover {
   background-color: white;
   color: black;
+}
+.container-general footer .container-right-bottom #design {
+  font-family: "Oswald", sans-serif;
+  font-weight: 200;
+  letter-spacing: 0.1rem;
+}
+.container-general footer .container-right-bottom #design a {
+  color: white;
 }/*# sourceMappingURL=style.css.map */
