@@ -175,4 +175,18 @@
   text-transform: uppercase;
   letter-spacing: 0.3rem;
   color: white;
+}
+.container-general footer .container-left-top .politics {
+  font-family: "Oswald", sans-serif;
+  font-weight: 200;
+  text-transform: capitalize;
+  margin-top: 0.6rem;
+}
+.container-general footer .container-left-top .politics #privacy, .container-general footer .container-left-top .politics #use {
+  font-weight: 200;
+  letter-spacing: 0.1rem;
+  color: white;
+}
+.container-general footer .container-left-top .politics span {
+  text-transform: lowercase;
 }/*# sourceMappingURL=style.css.map */

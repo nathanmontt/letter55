@@ -241,6 +241,23 @@ $font2: 'Noto Serif Khmer', serif;
           }
         }
       }
+
+      .politics {
+        font-family: $font1;
+        font-weight: 200;
+        text-transform: capitalize;
+        
+        margin-top: .6rem;
+        #privacy, #use {
+          font-weight: 200;
+          letter-spacing: .1rem;
+          color: $c2;
+        }
+
+        span {
+          text-transform: lowercase;
+        }
+      }
     }
 
     .container-right-bottom {
