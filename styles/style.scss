@@ -197,4 +197,44 @@ $font1: 'Oswald', sans-serif;
       }
     }
   }
+
+  footer {
+    .container-left-top {
+      .container-logo {
+        .logo-footer {}
+        .name-company {
+          img {
+          }
+        }
+      }
+
+      .container-links-footer {
+        .links-footer {
+          li {
+            a {}
+          }
+        }
+      }
+    }
+
+    .container-right-bottom {
+      .title-submit {
+      }
+
+      form {
+        #name {
+        }
+
+        #email {
+        }
+
+        button {
+        }
+      }
+
+      #design {
+        a {}
+      }
+    }
+  }
 }
