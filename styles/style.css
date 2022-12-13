@@ -22,7 +22,7 @@
   background-size: cover;
   min-height: 100vh;
 }
-@media screen and (min-width: 450px) {
+@media screen and (min-width: 768px) {
   .container-general .container-navbar {
     background-position: center;
     background-repeat: no-repeat;
