@@ -170,7 +170,7 @@
   margin-bottom: 0.6rem;
 }
 .container-general footer .container-left-top .container-links-footer .links-footer li a {
-  font-family: "Noto Serif Khmer", serif;
+  font-family: "Oswald", sans-serif;
   font-weight: 300;
   text-transform: uppercase;
   letter-spacing: 0.3rem;
@@ -189,4 +189,52 @@
 }
 .container-general footer .container-left-top .politics span {
   text-transform: lowercase;
+}
+.container-general footer .container-right-bottom {
+  padding: 1rem;
+}
+.container-general footer .container-right-bottom .title-submit {
+  font-size: 1.4rem;
+  font-family: "Oswald", sans-serif;
+  font-weight: 200;
+  letter-spacing: 0.2rem;
+  text-transform: uppercase;
+  margin-bottom: 0.5rem;
+}
+.container-general footer .container-right-bottom form {
+  display: flex;
+  flex-direction: column;
+}
+.container-general footer .container-right-bottom form #name, .container-general footer .container-right-bottom form #email {
+  font-weight: 400;
+  font-family: "Oswald", sans-serif;
+  letter-spacing: 0.2rem;
+  color: white;
+  border: none;
+  border-bottom: 0.01rem solid white;
+  background-color: transparent;
+  outline: none;
+  margin-bottom: 1rem;
+  padding: 0.6rem;
+  width: 15rem;
+}
+.container-general footer .container-right-bottom form button {
+  color: white;
+  width: 10rem;
+  padding: 1rem 2rem 1rem 2rem;
+  font-size: 1.03rem;
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  letter-spacing: 0.2rem;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+  background-color: transparent;
+  border: 0.01rem solid white;
+  outline: none;
+  cursor: pointer;
+  transition: background-color 0.5s, color 0.5s;
+}
+.container-general footer .container-right-bottom form button:hover {
+  background-color: white;
+  color: black;
 }/*# sourceMappingURL=style.css.map */

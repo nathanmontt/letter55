@@ -232,7 +232,7 @@ $font2: 'Noto Serif Khmer', serif;
             }
 
             a {
-              font-family: $font2;
+              font-family: $font1;
               font-weight: 300;
               text-transform: uppercase;
               letter-spacing: .3rem;
@@ -261,21 +261,65 @@ $font2: 'Noto Serif Khmer', serif;
     }
 
     .container-right-bottom {
+      padding: 1rem;
+
       .title-submit {
+        font-size: 1.4rem;
+        font-family: $font1;
+        font-weight: 200;
+        letter-spacing: .2rem;
+        text-transform: uppercase;
+        margin-bottom: .5rem;
       }
 
       form {
-        #name {
-        }
+        display: flex;
+        flex-direction: column;
 
-        #email {
+        #name, #email {
+          font-weight: 400;
+          font-family: $font1;
+          letter-spacing: .2rem;
+          color: $c2;
+
+          border: none;
+          border-bottom: .01rem solid $c2;
+          
+          background-color: transparent;
+          outline: none;
+          
+          margin-bottom: 1rem;
+          padding: .6rem;
+          width: 15rem;
         }
 
         button {
+          color: $c2;
+          width: 10rem;
+          padding: 1rem 2rem 1rem 2rem;
+          font-size: 1.03rem;
+          font-family: $font1;
+          font-weight: 400;
+          letter-spacing: .2rem;
+          text-transform: uppercase;
+          margin-bottom: 1rem;
+
+          background-color: transparent;
+          border: .01rem solid $c2;
+          outline: none;
+          cursor: pointer;
+
+          transition: background-color .5s, color .5s;
+
+          &:hover {
+            background-color: $c2;
+            color: $c1;
+          }
         }
       }
 
       #design {
+        
         a {}
       }
     }
