@@ -140,6 +140,7 @@ $font2: 'Noto Serif Khmer', serif;
     .container-main {
       .container-main-section{
         min-height: 100vh;
+
         .container-text-concept {
           .title {
             font-family: $font1;
@@ -157,56 +158,81 @@ $font2: 'Noto Serif Khmer', serif;
           }
         }
 
-        .container-video-showcase {
-          video {
-            width: 100%;
-            padding: 0 1rem 1rem 1rem;
-            // source {}
+        .container-grid-main-section{
+          @media screen and(min-width: 700px) {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
           }
-        }
 
-        .container-links {
-          .menu-links {
-            padding: 0 1rem 0 1rem;
+          .container-video-showcase {
+            @media screen and(min-width: 700px) {
+              display: none;
+              // grid-template-columns: repeat(2, 1fr);
+            }
 
-            .links {
-              color: gray;
+            video {
+              width: 100%;
+              padding: 0 1rem 1rem 1rem;
+            }
+          }
 
-              &:first-child {
-                border: .01rem;
-                border-style: solid none none none;
-              }
+          .container-video-showcase-2 {
+            @media screen and(min-width: 700px) {
+              display: block;
+            }
 
-              &:last-child {
-                border: .01rem;
-                margin-bottom: 1rem;
-                border-style: solid none solid none;
-              }
+            video {
+              width: 100%;
+              padding: 0 1rem 1rem 1rem;
+            }
+          }
 
-              &:nth-child(2), &:nth-child(3), &:nth-child(4), &:nth-child(5),
-              &:nth-child(6), &:nth-child(7), &:nth-child(8), &:nth-child(9) {
-                border: .01rem;
-                border-style: solid none none none;
-              }
+          .container-links {
+            .menu-links {
+              padding: 0 1rem 0 1rem;
 
-              // &:nth-child(3) {
-              //   border: .01rem;
-              //   border-style: solid none none none;
-              // }
+              .links {
+                color: gray;
 
-              a {
-                font-family: $font1;
-                font-weight: 400;
-                font-size: 1.2rem;
-                text-transform: uppercase;
-                color: $c1;
-                margin: 0 0 0 2rem;
+                &:first-child {
+                  border: .01rem;
+                  border-style: solid none none none;
+                }
 
-                // transition: transform .5s;
+                &:last-child {
+                  border: .01rem;
+                  margin-bottom: 1rem;
+                  border-style: solid none solid none;
+                }
 
-                // &:hover {
-                //   transform: translateX(.5rem);
+                &:nth-child(2), &:nth-child(3), &:nth-child(4), &:nth-child(5),
+                &:nth-child(6), &:nth-child(7), &:nth-child(8), &:nth-child(9),
+                &:nth-child(10), &:nth-child(11), &:nth-child(12), &:nth-child(13),
+                &:nth-child(14), &:nth-child(15), &:nth-child(16), &:nth-child(17),
+                &:nth-child(18) {
+                  border: .01rem;
+                  border-style: solid none none none;
+                }
+
+                // &:nth-child(3) {
+                //   border: .01rem;
+                //   border-style: solid none none none;
                 // }
+
+                a {
+                  font-family: $font1;
+                  font-weight: 400;
+                  font-size: 1.2rem;
+                  text-transform: uppercase;
+                  color: $c1;
+                  margin: 0 0 0 2rem;
+
+                  // transition: transform .5s;
+
+                  // &:hover {
+                  //   transform: translateX(.5rem);
+                  // }
+                }
               }
             }
           }
@@ -219,7 +245,7 @@ $font2: 'Noto Serif Khmer', serif;
     background-color: $c1;
     color: $c2;
 
-    .container-grid{
+    .container-grid-footer{
       @media screen and(min-width: 700px) {
         display: grid;
         grid-template-columns: repeat(2, 1fr);

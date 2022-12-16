@@ -124,30 +124,50 @@
   font-weight: 200;
   padding: 0 1rem 1rem 1rem;
 }
-.container-general main .container-main .container-main-section .container-video-showcase video {
+@media screen and (min-width: 700px) {
+  .container-general main .container-main .container-main-section .container-grid-main-section {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media screen and (min-width: 700px) {
+  .container-general main .container-main .container-main-section .container-grid-main-section .container-video-showcase {
+    display: none;
+  }
+}
+.container-general main .container-main .container-main-section .container-grid-main-section .container-video-showcase video {
   width: 100%;
   padding: 0 1rem 1rem 1rem;
 }
-.container-general main .container-main .container-main-section .container-links .menu-links {
+@media screen and (min-width: 700px) {
+  .container-general main .container-main .container-main-section .container-grid-main-section .container-video-showcase-2 {
+    display: block;
+  }
+}
+.container-general main .container-main .container-main-section .container-grid-main-section .container-video-showcase-2 video {
+  width: 100%;
+  padding: 0 1rem 1rem 1rem;
+}
+.container-general main .container-main .container-main-section .container-grid-main-section .container-links .menu-links {
   padding: 0 1rem 0 1rem;
 }
-.container-general main .container-main .container-main-section .container-links .menu-links .links {
+.container-general main .container-main .container-main-section .container-grid-main-section .container-links .menu-links .links {
   color: gray;
 }
-.container-general main .container-main .container-main-section .container-links .menu-links .links:first-child {
+.container-general main .container-main .container-main-section .container-grid-main-section .container-links .menu-links .links:first-child {
   border: 0.01rem;
   border-style: solid none none none;
 }
-.container-general main .container-main .container-main-section .container-links .menu-links .links:last-child {
+.container-general main .container-main .container-main-section .container-grid-main-section .container-links .menu-links .links:last-child {
   border: 0.01rem;
   margin-bottom: 1rem;
   border-style: solid none solid none;
 }
-.container-general main .container-main .container-main-section .container-links .menu-links .links:nth-child(2), .container-general main .container-main .container-main-section .container-links .menu-links .links:nth-child(3), .container-general main .container-main .container-main-section .container-links .menu-links .links:nth-child(4), .container-general main .container-main .container-main-section .container-links .menu-links .links:nth-child(5), .container-general main .container-main .container-main-section .container-links .menu-links .links:nth-child(6), .container-general main .container-main .container-main-section .container-links .menu-links .links:nth-child(7), .container-general main .container-main .container-main-section .container-links .menu-links .links:nth-child(8), .container-general main .container-main .container-main-section .container-links .menu-links .links:nth-child(9) {
+.container-general main .container-main .container-main-section .container-grid-main-section .container-links .menu-links .links:nth-child(2), .container-general main .container-main .container-main-section .container-grid-main-section .container-links .menu-links .links:nth-child(3), .container-general main .container-main .container-main-section .container-grid-main-section .container-links .menu-links .links:nth-child(4), .container-general main .container-main .container-main-section .container-grid-main-section .container-links .menu-links .links:nth-child(5), .container-general main .container-main .container-main-section .container-grid-main-section .container-links .menu-links .links:nth-child(6), .container-general main .container-main .container-main-section .container-grid-main-section .container-links .menu-links .links:nth-child(7), .container-general main .container-main .container-main-section .container-grid-main-section .container-links .menu-links .links:nth-child(8), .container-general main .container-main .container-main-section .container-grid-main-section .container-links .menu-links .links:nth-child(9), .container-general main .container-main .container-main-section .container-grid-main-section .container-links .menu-links .links:nth-child(10), .container-general main .container-main .container-main-section .container-grid-main-section .container-links .menu-links .links:nth-child(11), .container-general main .container-main .container-main-section .container-grid-main-section .container-links .menu-links .links:nth-child(12), .container-general main .container-main .container-main-section .container-grid-main-section .container-links .menu-links .links:nth-child(13), .container-general main .container-main .container-main-section .container-grid-main-section .container-links .menu-links .links:nth-child(14), .container-general main .container-main .container-main-section .container-grid-main-section .container-links .menu-links .links:nth-child(15), .container-general main .container-main .container-main-section .container-grid-main-section .container-links .menu-links .links:nth-child(16), .container-general main .container-main .container-main-section .container-grid-main-section .container-links .menu-links .links:nth-child(17), .container-general main .container-main .container-main-section .container-grid-main-section .container-links .menu-links .links:nth-child(18) {
   border: 0.01rem;
   border-style: solid none none none;
 }
-.container-general main .container-main .container-main-section .container-links .menu-links .links a {
+.container-general main .container-main .container-main-section .container-grid-main-section .container-links .menu-links .links a {
   font-family: "Oswald", sans-serif;
   font-weight: 400;
   font-size: 1.2rem;
@@ -160,57 +180,57 @@
   color: white;
 }
 @media screen and (min-width: 700px) {
-  .container-general footer .container-grid {
+  .container-general footer .container-grid-footer {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
   }
 }
-.container-general footer .container-grid .container-left-top {
+.container-general footer .container-grid-footer .container-left-top {
   padding: 2rem;
 }
-.container-general footer .container-grid .container-left-top .container-logo {
+.container-general footer .container-grid-footer .container-left-top .container-logo {
   display: flex;
   align-items: center;
 }
-.container-general footer .container-grid .container-left-top .container-logo .name-company {
+.container-general footer .container-grid-footer .container-left-top .container-logo .name-company {
   letter-spacing: 0.3rem;
   font-family: "Noto Serif Khmer", serif;
   font-weight: 400;
   font-size: 2rem;
   color: white;
 }
-.container-general footer .container-grid .container-left-top .container-logo .logo-footer {
+.container-general footer .container-grid-footer .container-left-top .container-logo .logo-footer {
   width: 5rem;
 }
-.container-general footer .container-grid .container-left-top .container-links-footer .links-footer li:nth-child(1), .container-general footer .container-grid .container-left-top .container-links-footer .links-footer li:nth-child(2) {
+.container-general footer .container-grid-footer .container-left-top .container-links-footer .links-footer li:nth-child(1), .container-general footer .container-grid-footer .container-left-top .container-links-footer .links-footer li:nth-child(2) {
   margin-bottom: 0.6rem;
 }
-.container-general footer .container-grid .container-left-top .container-links-footer .links-footer li a {
+.container-general footer .container-grid-footer .container-left-top .container-links-footer .links-footer li a {
   font-family: "Oswald", sans-serif;
   font-weight: 300;
   text-transform: uppercase;
   letter-spacing: 0.3rem;
   color: white;
 }
-.container-general footer .container-grid .container-left-top .politics {
+.container-general footer .container-grid-footer .container-left-top .politics {
   font-family: "Oswald", sans-serif;
   font-weight: 200;
   text-transform: capitalize;
   width: 13rem;
   margin-top: 0.6rem;
 }
-.container-general footer .container-grid .container-left-top .politics #privacy, .container-general footer .container-grid .container-left-top .politics #use {
+.container-general footer .container-grid-footer .container-left-top .politics #privacy, .container-general footer .container-grid-footer .container-left-top .politics #use {
   font-weight: 200;
   letter-spacing: 0.1rem;
   color: white;
 }
-.container-general footer .container-grid .container-left-top .politics span {
+.container-general footer .container-grid-footer .container-left-top .politics span {
   text-transform: lowercase;
 }
-.container-general footer .container-grid .container-right-bottom {
+.container-general footer .container-grid-footer .container-right-bottom {
   padding: 2rem;
 }
-.container-general footer .container-grid .container-right-bottom .title-submit {
+.container-general footer .container-grid-footer .container-right-bottom .title-submit {
   font-size: 1.4rem;
   font-family: "Oswald", sans-serif;
   font-weight: 200;
@@ -218,11 +238,11 @@
   text-transform: uppercase;
   margin-bottom: 0.5rem;
 }
-.container-general footer .container-grid .container-right-bottom form {
+.container-general footer .container-grid-footer .container-right-bottom form {
   display: flex;
   flex-direction: column;
 }
-.container-general footer .container-grid .container-right-bottom form #name, .container-general footer .container-grid .container-right-bottom form #email {
+.container-general footer .container-grid-footer .container-right-bottom form #name, .container-general footer .container-grid-footer .container-right-bottom form #email {
   font-weight: 400;
   font-family: "Oswald", sans-serif;
   letter-spacing: 0.2rem;
@@ -235,7 +255,7 @@
   padding: 0.6rem;
   width: 15rem;
 }
-.container-general footer .container-grid .container-right-bottom form button {
+.container-general footer .container-grid-footer .container-right-bottom form button {
   color: white;
   width: 10rem;
   padding: 1rem 2rem 1rem 2rem;
@@ -251,15 +271,15 @@
   cursor: pointer;
   transition: background-color 0.5s, color 0.5s;
 }
-.container-general footer .container-grid .container-right-bottom form button:hover {
+.container-general footer .container-grid-footer .container-right-bottom form button:hover {
   background-color: white;
   color: black;
 }
-.container-general footer .container-grid .container-right-bottom #design {
+.container-general footer .container-grid-footer .container-right-bottom #design {
   font-family: "Oswald", sans-serif;
   font-weight: 200;
   letter-spacing: 0.1rem;
 }
-.container-general footer .container-grid .container-right-bottom #design a {
+.container-general footer .container-grid-footer .container-right-bottom #design a {
   color: white;
 }/*# sourceMappingURL=style.css.map */
