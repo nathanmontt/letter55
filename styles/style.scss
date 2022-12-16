@@ -213,126 +213,134 @@ $font2: 'Noto Serif Khmer', serif;
     background-color: $c1;
     color: $c2;
 
-    .container-left-top {
-      padding: 1rem;
-      .container-logo {
-        display: flex;
-        align-items: center;
-
-        .name-company {
-          letter-spacing: .3rem;
-          font-family: $font2;
-          font-weight: 400;
-          font-size: 2rem;
-          color: $c2;
-        }
-
-        .logo-footer {
-          width: 5rem;
-        }
+    .container-grid{
+      @media screen and(min-width: 700px) {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
       }
 
-      .container-links-footer {
-        .links-footer {
-          li {
-            &:nth-child(1), &:nth-child(2){
-              margin-bottom: .6rem;
-            }
+      .container-left-top {
+        padding: 2rem;
+        .container-logo {
+          display: flex;
+          align-items: center;
 
-            a {
-              font-family: $font1;
-              font-weight: 300;
-              text-transform: uppercase;
-              letter-spacing: .3rem;
-              color: $c2;
+          .name-company {
+            letter-spacing: .3rem;
+            font-family: $font2;
+            font-weight: 400;
+            font-size: 2rem;
+            color: $c2;
+          }
+
+          .logo-footer {
+            width: 5rem;
+          }
+        }
+
+        .container-links-footer {
+          .links-footer {
+            li {
+              &:nth-child(1), &:nth-child(2){
+                margin-bottom: .6rem;
+              }
+
+              a {
+                font-family: $font1;
+                font-weight: 300;
+                text-transform: uppercase;
+                letter-spacing: .3rem;
+                color: $c2;
+              }
             }
+          }
+        }
+
+        .politics {
+          font-family: $font1;
+          font-weight: 200;
+          text-transform: capitalize;
+          width: 13rem;
+          
+          margin-top: .6rem;
+          #privacy, #use {
+            font-weight: 200;
+            letter-spacing: .1rem;
+            color: $c2;
+          }
+
+          span {
+            text-transform: lowercase;
           }
         }
       }
 
-      .politics {
-        font-family: $font1;
-        font-weight: 200;
-        text-transform: capitalize;
-        
-        margin-top: .6rem;
-        #privacy, #use {
+      .container-right-bottom {
+        padding: 2rem;
+
+        .title-submit {
+          font-size: 1.4rem;
+          font-family: $font1;
           font-weight: 200;
-          letter-spacing: .1rem;
-          color: $c2;
-        }
-
-        span {
-          text-transform: lowercase;
-        }
-      }
-    }
-
-    .container-right-bottom {
-      padding: 1rem;
-
-      .title-submit {
-        font-size: 1.4rem;
-        font-family: $font1;
-        font-weight: 200;
-        letter-spacing: .2rem;
-        text-transform: uppercase;
-        margin-bottom: .5rem;
-      }
-
-      form {
-        display: flex;
-        flex-direction: column;
-
-        #name, #email {
-          font-weight: 400;
-          font-family: $font1;
-          letter-spacing: .2rem;
-          color: $c2;
-
-          border: none;
-          border-bottom: .01rem solid $c2;
-          
-          background-color: transparent;
-          outline: none;
-          
-          margin-bottom: 1rem;
-          padding: .6rem;
-          width: 15rem;
-        }
-
-        button {
-          color: $c2;
-          width: 10rem;
-          padding: 1rem 2rem 1rem 2rem;
-          font-size: 1.03rem;
-          font-family: $font1;
-          font-weight: 400;
           letter-spacing: .2rem;
           text-transform: uppercase;
-          margin-bottom: 1rem;
+          margin-bottom: .5rem;
+        }
 
-          background-color: transparent;
-          border: .01rem solid $c2;
-          outline: none;
-          cursor: pointer;
+        form {
+          display: flex;
+          flex-direction: column;
 
-          transition: background-color .5s, color .5s;
+          #name, #email {
+            font-weight: 400;
+            font-family: $font1;
+            letter-spacing: .2rem;
+            color: $c2;
 
-          &:hover {
-            background-color: $c2;
-            color: $c1;
+            border: none;
+            border-bottom: .01rem solid $c2;
+            
+            background-color: transparent;
+            outline: none;
+            
+            margin-bottom: 1rem;
+            padding: .6rem;
+            width: 15rem;
+          }
+
+          button {
+            color: $c2;
+            width: 10rem;
+            padding: 1rem 2rem 1rem 2rem;
+            font-size: 1.03rem;
+            font-family: $font1;
+            font-weight: 400;
+            letter-spacing: .2rem;
+            text-transform: uppercase;
+            margin-bottom: 1rem;
+
+            background-color: transparent;
+            border: .01rem solid $c2;
+            outline: none;
+            cursor: pointer;
+
+            transition: background-color .5s, color .5s;
+
+            &:hover {
+              background-color: $c2;
+              color: $c1;
+            }
           }
         }
-      }
 
-      #design {
-        font-family: $font1;
-        font-weight: 200;
-        letter-spacing: .1rem;
+        #design {
+          font-family: $font1;
+          font-weight: 200;
+          letter-spacing: .1rem;
 
-        a {
-          color: $c2;
+          a {
+            color: $c2;
+          }
         }
       }
     }
