@@ -30,8 +30,16 @@ $font2: 'Noto Serif Khmer', serif;
     background-size: cover;
     min-height: 100vh;
 
-    @media screen and(min-width: 768px) {
-      // background-image: url("");
+    @media screen and(min-width: 500px) {
+      background-image: url("/letter55/assets/Europeana-2.jpg");
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      min-height: 100vh;
+    }
+
+    @media screen and(min-width: 800px) {
+      background-image: url("/letter55/assets/Europeana-1.jpg");
       background-position: center;
       background-repeat: no-repeat;
       background-size: cover;

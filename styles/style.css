@@ -22,8 +22,18 @@
   background-size: cover;
   min-height: 100vh;
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 500px) {
   .container-general .container-navbar {
+    background-image: url("/letter55/assets/Europeana-2.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+  }
+}
+@media screen and (min-width: 800px) {
+  .container-general .container-navbar {
+    background-image: url("/letter55/assets/Europeana-1.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
