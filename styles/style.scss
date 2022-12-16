@@ -201,6 +201,12 @@ $font2: 'Noto Serif Khmer', serif;
                 text-transform: uppercase;
                 color: $c1;
                 margin: 0 0 0 2rem;
+
+                // transition: transform .5s;
+
+                // &:hover {
+                //   transform: translateX(.5rem);
+                // }
               }
             }
           }
