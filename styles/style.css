@@ -126,8 +126,7 @@
 }
 @media screen and (min-width: 700px) {
   .container-general main .container-main .container-main-section .container-grid-main-section {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    display: flex;
   }
 }
 @media screen and (min-width: 700px) {
@@ -142,6 +141,7 @@
 @media screen and (min-width: 700px) {
   .container-general main .container-main .container-main-section .container-grid-main-section .container-video-showcase-2 {
     display: block;
+    width: 22rem;
   }
 }
 .container-general main .container-main .container-main-section .container-grid-main-section .container-video-showcase-2 video {

@@ -160,8 +160,7 @@ $font2: 'Noto Serif Khmer', serif;
 
         .container-grid-main-section{
           @media screen and(min-width: 700px) {
-            display: grid;
-            grid-template-columns: repeat(2, 1fr);
+            display: flex;
           }
 
           .container-video-showcase {
@@ -179,6 +178,7 @@ $font2: 'Noto Serif Khmer', serif;
           .container-video-showcase-2 {
             @media screen and(min-width: 700px) {
               display: block;
+              width: 22rem;
             }
 
             video {
