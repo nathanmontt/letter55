@@ -124,27 +124,7 @@
   font-weight: 200;
   padding: 0 1rem 1rem 1rem;
 }
-@media screen and (min-width: 700px) {
-  .container-general main .container-main .container-main-section .container-grid-main-section {
-    display: flex;
-  }
-}
-@media screen and (min-width: 700px) {
-  .container-general main .container-main .container-main-section .container-grid-main-section .container-video-showcase {
-    display: none;
-  }
-}
 .container-general main .container-main .container-main-section .container-grid-main-section .container-video-showcase video {
-  width: 100%;
-  padding: 0 1rem 1rem 1rem;
-}
-@media screen and (min-width: 700px) {
-  .container-general main .container-main .container-main-section .container-grid-main-section .container-video-showcase-2 {
-    display: block;
-    width: 22rem;
-  }
-}
-.container-general main .container-main .container-main-section .container-grid-main-section .container-video-showcase-2 video {
   width: 100%;
   padding: 0 1rem 1rem 1rem;
 }

@@ -160,25 +160,14 @@ $font2: 'Noto Serif Khmer', serif;
 
         .container-grid-main-section{
           @media screen and(min-width: 700px) {
-            display: flex;
+            // display: grid;
+            // grid-template-columns: repeat(2, 20rem);
           }
 
           .container-video-showcase {
             @media screen and(min-width: 700px) {
-              display: none;
+              // display: none;
               // grid-template-columns: repeat(2, 1fr);
-            }
-
-            video {
-              width: 100%;
-              padding: 0 1rem 1rem 1rem;
-            }
-          }
-
-          .container-video-showcase-2 {
-            @media screen and(min-width: 700px) {
-              display: block;
-              width: 22rem;
             }
 
             video {
@@ -190,6 +179,10 @@ $font2: 'Noto Serif Khmer', serif;
           .container-links {
             .menu-links {
               padding: 0 1rem 0 1rem;
+
+              @media screen and (min-width: 700px) {
+                // width: 100%;
+              }
 
               .links {
                 color: gray;
