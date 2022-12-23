@@ -142,7 +142,7 @@ $font2: 'Noto Serif Khmer', serif;
         min-height: 100vh;
 
         .container-display{
-          @media screen and(min-width: 700px) {
+          @media screen and(min-width: 800px) {
             display: grid;
             grid-template-columns: repeat(2, 1fr);
           }
@@ -165,6 +165,10 @@ $font2: 'Noto Serif Khmer', serif;
           }
 
           .container-video-showcase {
+            @media screen and (min-width: 800px) {
+              padding: 1rem 0 0 0;
+            }
+
             video {
               width: 100%;
               padding: 0 1rem 1rem 1rem;
@@ -176,10 +180,6 @@ $font2: 'Noto Serif Khmer', serif;
           .container-links {
             .menu-links {
               padding: 0 1rem 0 1rem;
-
-              @media screen and (min-width: 700px) {
-                // width: 100%;
-              }
 
               .links {
                 color: gray;

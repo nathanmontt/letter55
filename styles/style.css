@@ -111,7 +111,7 @@
 .container-general main .container-main .container-main-section {
   min-height: 100vh;
 }
-@media screen and (min-width: 700px) {
+@media screen and (min-width: 800px) {
   .container-general main .container-main .container-main-section .container-display {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -129,6 +129,11 @@
   font-family: "Oswald", sans-serif;
   font-weight: 200;
   padding: 0 1rem 1rem 1rem;
+}
+@media screen and (min-width: 800px) {
+  .container-general main .container-main .container-main-section .container-display .container-video-showcase {
+    padding: 1rem 0 0 0;
+  }
 }
 .container-general main .container-main .container-main-section .container-display .container-video-showcase video {
   width: 100%;
