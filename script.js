@@ -1,16 +1,39 @@
 'use strict'
 
+/* VARIABLES */
+const colorFir = "black";
+const colorSec = "white";
+
+//FOR THE IMAGES
 const whiteMode = document.getElementById('sun');
 const darkMode = document.getElementById('moon');
 
+//FOR THE NAVIGATION BAR
+/*----------------------------------------------------------*/
+const linksMenuChanging = document.querySelectorAll('.links');
+for (let i=0 ; i<linksMenuChanging.length ; i++) {
+  whiteMode.addEventListener('click', function() {
+    linksMenuChanging[i].style.color = colorSec;
+    sun.src = `/letter55/assets/icons/sun-${2}.png`;
+    moon.src = `/letter55/assets/icons/moon-${2}.png`;
+  });
+}
+
+for (let j=0 ; j<linksMenuChanging.length ; j++) {
+  darkMode.addEventListener('click', function() {
+    linksMenuChanging[i].style.color = colorFir;
+    sun.src = `/letter55/assets/icons/sun-${1}.png`;
+    moon.src = `/letter55/assets/icons/moon-${1}.png`;
+  });
+}
+/*----------------------------------------------------------*/
+
 whiteMode.addEventListener('click', function() {
-  console.log('this is the white mode');
-  window.alert('this is the white mode');
+  // sun.src = `/letter55/assets/icons/sun-${1}.png`;
+  // moon.src = `/letter55/assets/icons/moon-${1}.png`;
 });
 
 darkMode.addEventListener('click', function() {
-  console.log('this is the dark mode');
-  window.alert('this is the dark mode');
 });
 
 
