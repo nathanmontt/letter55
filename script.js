@@ -3,7 +3,15 @@
 const whiteMode = document.getElementById('sun');
 const darkMode = document.getElementById('moon');
 
+whiteMode.addEventListener('click', function() {
+  console.log('this is the white mode');
+  window.alert('this is the white mode');
+});
 
+darkMode.addEventListener('click', function() {
+  console.log('this is the dark mode');
+  window.alert('this is the dark mode');
+});
 
 
 
