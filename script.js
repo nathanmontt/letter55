@@ -21,11 +21,16 @@ for (let i=0 ; i<linksMenuChanging.length ; i++) {
 
 for (let j=0 ; j<linksMenuChanging.length ; j++) {
   darkMode.addEventListener('click', function() {
-    linksMenuChanging[i].style.color = colorFir;
+    linksMenuChanging[j].style.color = colorFir;
     sun.src = `/letter55/assets/icons/sun-${1}.png`;
     moon.src = `/letter55/assets/icons/moon-${1}.png`;
   });
 }
+/*----------------------------------------------------------*/
+
+// FOR THE CONCEPT PART
+/*----------------------------------------------------------*/
+
 /*----------------------------------------------------------*/
 
 whiteMode.addEventListener('click', function() {
