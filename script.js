@@ -1,14 +1,13 @@
 'use strict'
 
-/* VARIABLES */
 const colorFir = "black";
 const colorSec = "white";
 
-//FOR THE IMAGES
+//VARIABLES FOR THE IMAGES
 const whiteMode = document.getElementById('sun');
 const darkMode = document.getElementById('moon');
 
-//FOR THE NAVIGATION BAR
+//NAVIGATION BAR
 /*----------------------------------------------------------*/
 const linksMenuChanging = document.querySelectorAll('.links');
 for (let i=0 ; i<linksMenuChanging.length ; i++) {
@@ -28,9 +27,17 @@ for (let j=0 ; j<linksMenuChanging.length ; j++) {
 }
 /*----------------------------------------------------------*/
 
-// FOR THE CONCEPT PART
-/*----------------------------------------------------------*/
 
+//HERO SECTION
+/*----------------------------------------------------------*/
+const heroTitleChanging = document.querySelector('.hero-title');
+whiteMode.addEventListener('click', function() {
+  heroTitleChanging.style.color = colorSec;
+});
+
+darkMode.addEventListener('click', function() {
+  heroTitleChanging.style.color = colorFir;
+});
 /*----------------------------------------------------------*/
 
 whiteMode.addEventListener('click', function() {
