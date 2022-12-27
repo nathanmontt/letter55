@@ -7,8 +7,7 @@ const colorSec = "white";
 const whiteMode = document.getElementById('sun');
 const darkMode = document.getElementById('moon');
 
-//NAVIGATION BAR
-/*----------------------------------------------------------*/
+/*-------------------------NAVIGATION BAR---------------------------------*/
 const linksMenuChanging = document.querySelectorAll('.links');
 for (let i=0 ; i<linksMenuChanging.length ; i++) {
   whiteMode.addEventListener('click', function() {
@@ -28,8 +27,7 @@ for (let j=0 ; j<linksMenuChanging.length ; j++) {
 /*----------------------------------------------------------*/
 
 
-//HERO SECTION
-/*----------------------------------------------------------*/
+/*------------------------HERO SECTION----------------------------------*/
 const heroTitleChanging = document.querySelector('.hero-title');
 whiteMode.addEventListener('click', function() {
   heroTitleChanging.style.color = colorSec;
@@ -40,15 +38,10 @@ darkMode.addEventListener('click', function() {
 });
 /*----------------------------------------------------------*/
 
-whiteMode.addEventListener('click', function() {
-  // sun.src = `/letter55/assets/icons/sun-${1}.png`;
-  // moon.src = `/letter55/assets/icons/moon-${1}.png`;
-});
 
-darkMode.addEventListener('click', function() {
-});
+/*------------------------CONCEPT SECTION----------------------------------*/
 
-
+/*----------------------------------------------------------*/
 
 
 

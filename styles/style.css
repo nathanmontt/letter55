@@ -145,19 +145,6 @@
 .container-general main .container-main .container-main-section .container-grid-main-section .container-links .menu-links .links {
   color: gray;
 }
-.container-general main .container-main .container-main-section .container-grid-main-section .container-links .menu-links .links:first-child {
-  border: 0.01rem;
-  border-style: solid none none none;
-}
-.container-general main .container-main .container-main-section .container-grid-main-section .container-links .menu-links .links:last-child {
-  border: 0.01rem;
-  margin-bottom: 1rem;
-  border-style: solid none solid none;
-}
-.container-general main .container-main .container-main-section .container-grid-main-section .container-links .menu-links .links:nth-child(2), .container-general main .container-main .container-main-section .container-grid-main-section .container-links .menu-links .links:nth-child(3), .container-general main .container-main .container-main-section .container-grid-main-section .container-links .menu-links .links:nth-child(4), .container-general main .container-main .container-main-section .container-grid-main-section .container-links .menu-links .links:nth-child(5), .container-general main .container-main .container-main-section .container-grid-main-section .container-links .menu-links .links:nth-child(6), .container-general main .container-main .container-main-section .container-grid-main-section .container-links .menu-links .links:nth-child(7), .container-general main .container-main .container-main-section .container-grid-main-section .container-links .menu-links .links:nth-child(8), .container-general main .container-main .container-main-section .container-grid-main-section .container-links .menu-links .links:nth-child(9), .container-general main .container-main .container-main-section .container-grid-main-section .container-links .menu-links .links:nth-child(10), .container-general main .container-main .container-main-section .container-grid-main-section .container-links .menu-links .links:nth-child(11), .container-general main .container-main .container-main-section .container-grid-main-section .container-links .menu-links .links:nth-child(12), .container-general main .container-main .container-main-section .container-grid-main-section .container-links .menu-links .links:nth-child(13), .container-general main .container-main .container-main-section .container-grid-main-section .container-links .menu-links .links:nth-child(14), .container-general main .container-main .container-main-section .container-grid-main-section .container-links .menu-links .links:nth-child(15), .container-general main .container-main .container-main-section .container-grid-main-section .container-links .menu-links .links:nth-child(16), .container-general main .container-main .container-main-section .container-grid-main-section .container-links .menu-links .links:nth-child(17), .container-general main .container-main .container-main-section .container-grid-main-section .container-links .menu-links .links:nth-child(18) {
-  border: 0.01rem;
-  border-style: solid none none none;
-}
 .container-general main .container-main .container-main-section .container-grid-main-section .container-links .menu-links .links a {
   font-family: "Oswald", sans-serif;
   font-weight: 400;
