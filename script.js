@@ -1,6 +1,7 @@
 'use strict'
 
 const colorFir = "#100d0d";
+const colorBackgorundFooter = "#ebebeb";
 const colorLetter = "black";
 const colorSec = "white";
 const colorThi = "gray";
@@ -112,17 +113,12 @@ for (let j=0 ; j<mainLinksChanging.length ; j++) {
 /*----------------------------------------------------------*/
 
 
+/*------------------------FOOTER----------------------------*/
+const footer = document.querySelector('footer');
+const companyNameChanging = document.querySelector('.name-company');
+const footerLinksChanging = document.querySelectorAll('.footer-links');
+const politicsChanging = document.querySelector('.politics');
+const titleFormsChanging = document.querySelector('.title-submit');
+const btn = document.querySelector('button');
 
-
-
-
-
-// const conceptDescription = document.querySelector('.description');
-// // RESIZING WINDOWN
-// window.addEventListener('resize', function (event) {
-//   if (this.window.innerWidth == 800) {
-//     conceptDescription.textContent += " Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia sit, deserunt tempora aperiam ipsum illum odit perspiciatis voluptas sequi temporibus placeat amet expedita fuga maxime ducimus quo odio.";
-//   } else {
-//     // conceptDescription.textContent
-//   }
-// });
+/*----------------------------------------------------------*/

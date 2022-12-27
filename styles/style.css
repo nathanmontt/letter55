@@ -183,7 +183,7 @@
 .container-general footer .container-grid-footer .container-left-top .container-links-footer .links-footer li:nth-child(1), .container-general footer .container-grid-footer .container-left-top .container-links-footer .links-footer li:nth-child(2) {
   margin-bottom: 0.6rem;
 }
-.container-general footer .container-grid-footer .container-left-top .container-links-footer .links-footer li a {
+.container-general footer .container-grid-footer .container-left-top .container-links-footer .links-footer li .footer-links {
   font-family: "Oswald", sans-serif;
   font-weight: 300;
   text-transform: uppercase;
