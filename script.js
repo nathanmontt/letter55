@@ -45,6 +45,68 @@ const titleChanging = document.querySelector('.title');
 const descriptionChanging = document.querySelector('.description');
 const mainSectionChanging = document.querySelectorAll('.links');
 const mainLinksChanging = document.querySelectorAll('.main-links');
+
+
+/*------------------------MAIN-------------------------------*/
+whiteMode.addEventListener('click', function() {
+  main.style.color = colorSec;
+});
+
+darkMode.addEventListener('click', function() {
+  main.style.color = colorFir;
+});
+/*----------------------------------------------------------*/
+
+
+/*------------------------TITLE-------------------------------*/
+whiteMode.addEventListener('click', function() {
+  titleChanging.style.color = colorSec;
+});
+
+darkMode.addEventListener('click', function() {
+  titleChanging.style.color = colorFir;
+});
+/*----------------------------------------------------------*/
+
+
+/*------------------------DESCRIPTION-------------------------------*/
+whiteMode.addEventListener('click', function() {
+  descriptionChanging.style.color = colorSec;
+});
+
+darkMode.addEventListener('click', function() {
+  descriptionChanging.style.color = colorFir;
+});
+/*----------------------------------------------------------*/
+
+
+/*------------------------NUMBERS ON THE MAIN SECTION----------------------------*/
+for (let i=0 ; i<mainSectionChanging.length ; i++) {
+  whiteMode.addEventListener('click', function() {
+    mainSectionChanging[i].style.color = colorSec;
+  });
+}
+
+for (let j=0 ; j<mainSectionChanging.length ; j++) {
+  darkMode.addEventListener('click', function() {
+    mainSectionChanging[j].style.color = colorFir;
+  });
+}
+/*----------------------------------------------------------*/
+
+
+/*------------------------LINKS ON THE MAIN SECTION----------------------------*/
+for (let i=0 ; i<mainLinksChanging.length ; i++) {
+  whiteMode.addEventListener('click', function() {
+    mainLinksChanging[i].style.color = colorSec;
+  });
+}
+
+for (let j=0 ; j<mainLinksChanging.length ; j++) {
+  darkMode.addEventListener('click', function() {
+    mainLinksChanging[j].style.color = colorFir;
+  });
+}
 /*----------------------------------------------------------*/
 
 
