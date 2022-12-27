@@ -40,7 +40,11 @@ darkMode.addEventListener('click', function() {
 
 
 /*------------------------CONCEPT SECTION----------------------------------*/
-
+const main = document.querySelector('main');
+const titleChanging = document.querySelector('.title');
+const descriptionChanging = document.querySelector('.description');
+const mainSectionChanging = document.querySelectorAll('.links');
+const mainLinksChanging = document.querySelectorAll('.main-links');
 /*----------------------------------------------------------*/
 
 
