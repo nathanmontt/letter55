@@ -1,7 +1,9 @@
 'use strict'
 
-const colorFir = "black";
+const colorFir = "#100d0d";
+const colorLetter = "black";
 const colorSec = "white";
+const colorThi = "gray";
 
 //VARIABLES FOR THE IMAGES
 const whiteMode = document.getElementById('sun');
@@ -19,7 +21,7 @@ for (let i=0 ; i<linksMenuChanging.length ; i++) {
 
 for (let j=0 ; j<linksMenuChanging.length ; j++) {
   darkMode.addEventListener('click', function() {
-    linksMenuChanging[j].style.color = colorFir;
+    linksMenuChanging[j].style.color = colorLetter;
     sun.src = `/letter55/assets/icons/sun-${1}.png`;
     moon.src = `/letter55/assets/icons/moon-${1}.png`;
   });
@@ -34,7 +36,7 @@ whiteMode.addEventListener('click', function() {
 });
 
 darkMode.addEventListener('click', function() {
-  heroTitleChanging.style.color = colorFir;
+  heroTitleChanging.style.color = colorLetter;
 });
 /*----------------------------------------------------------*/
 
@@ -43,39 +45,39 @@ darkMode.addEventListener('click', function() {
 const main = document.querySelector('main');
 const titleChanging = document.querySelector('.title');
 const descriptionChanging = document.querySelector('.description');
-const mainSectionChanging = document.querySelectorAll('.links');
+const mainSectionChanging = document.querySelectorAll('.links-main-section');
 const mainLinksChanging = document.querySelectorAll('.main-links');
 
 
 /*------------------------MAIN-------------------------------*/
 whiteMode.addEventListener('click', function() {
-  main.style.color = colorSec;
+  main.style.backgroundColor = colorSec;
 });
 
 darkMode.addEventListener('click', function() {
-  main.style.color = colorFir;
+  main.style.backgroundColor = colorFir;
 });
 /*----------------------------------------------------------*/
 
 
 /*------------------------TITLE-------------------------------*/
 whiteMode.addEventListener('click', function() {
-  titleChanging.style.color = colorSec;
+  titleChanging.style.color = colorLetter;
 });
 
 darkMode.addEventListener('click', function() {
-  titleChanging.style.color = colorFir;
+  titleChanging.style.color = colorSec;
 });
 /*----------------------------------------------------------*/
 
 
 /*------------------------DESCRIPTION-------------------------------*/
 whiteMode.addEventListener('click', function() {
-  descriptionChanging.style.color = colorSec;
+  descriptionChanging.style.color = colorLetter;
 });
 
 darkMode.addEventListener('click', function() {
-  descriptionChanging.style.color = colorFir;
+  descriptionChanging.style.color = colorSec;
 });
 /*----------------------------------------------------------*/
 
@@ -83,13 +85,13 @@ darkMode.addEventListener('click', function() {
 /*------------------------NUMBERS ON THE MAIN SECTION----------------------------*/
 for (let i=0 ; i<mainSectionChanging.length ; i++) {
   whiteMode.addEventListener('click', function() {
-    mainSectionChanging[i].style.color = colorSec;
+    mainSectionChanging[i].style.color = colorThi;
   });
 }
 
 for (let j=0 ; j<mainSectionChanging.length ; j++) {
   darkMode.addEventListener('click', function() {
-    mainSectionChanging[j].style.color = colorFir;
+    mainSectionChanging[j].style.color = colorSec;
   });
 }
 /*----------------------------------------------------------*/
@@ -98,13 +100,13 @@ for (let j=0 ; j<mainSectionChanging.length ; j++) {
 /*------------------------LINKS ON THE MAIN SECTION----------------------------*/
 for (let i=0 ; i<mainLinksChanging.length ; i++) {
   whiteMode.addEventListener('click', function() {
-    mainLinksChanging[i].style.color = colorSec;
+    mainLinksChanging[i].style.color = colorLetter;
   });
 }
 
 for (let j=0 ; j<mainLinksChanging.length ; j++) {
   darkMode.addEventListener('click', function() {
-    mainLinksChanging[j].style.color = colorFir;
+    mainLinksChanging[j].style.color = colorSec;
   });
 }
 /*----------------------------------------------------------*/

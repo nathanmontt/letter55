@@ -142,10 +142,10 @@
 .container-general main .container-main .container-main-section .container-grid-main-section .container-links .menu-links {
   padding: 0 1rem 0 1rem;
 }
-.container-general main .container-main .container-main-section .container-grid-main-section .container-links .menu-links .links {
+.container-general main .container-main .container-main-section .container-grid-main-section .container-links .menu-links .links-main-section {
   color: gray;
 }
-.container-general main .container-main .container-main-section .container-grid-main-section .container-links .menu-links .links .main-links {
+.container-general main .container-main .container-main-section .container-grid-main-section .container-links .menu-links .links-main-section .main-links {
   font-family: "Oswald", sans-serif;
   font-weight: 400;
   font-size: 1.2rem;
