@@ -119,6 +119,9 @@ const companyNameChanging = document.querySelector('.name-company');
 const footerLinksChanging = document.querySelectorAll('.footer-links');
 const politicsChanging = document.querySelector('.politics');
 const titleFormsChanging = document.querySelector('.title-submit');
+const name = document.getElementById('name');
+const email = document.getElementById('email');
 const btn = document.querySelector('button');
+
 
 /*----------------------------------------------------------*/
