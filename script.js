@@ -1,7 +1,7 @@
 'use strict'
 
 const colorFir = "#100d0d";
-const colorBackgorundFooter = "#ebebeb";
+const colorBackgorundFooter = "#dadada";
 const colorLetter = "black";
 const colorSec = "white";
 const colorThi = "gray";
