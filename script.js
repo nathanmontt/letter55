@@ -160,9 +160,21 @@ for (let j=0 ; j<footerLinksChanging.length ; j++) {
 //POLITICS PART
 whiteMode.addEventListener('click', function() {
   politicsChanging.style.color = colorSec;
+  privacyTermsChanging.style.color = colorSec;
+  termsOfUseChanging.style.color = colorSec;
+
+  politicsChanging.style.fontWeigth = "";
+  privacyTermsChanging.style.fontWeigth = "";
+  termsOfUseChanging.style.fontWeigth = "";
 });
 
 darkMode.addEventListener('click', function() {
   politicsChanging.style.color = colorLetter;
+  privacyTermsChanging.style.color = colorLetter;
+  termsOfUseChanging.style.color = colorLetter;
+
+  politicsChanging.style.fontWeigth = "";
+  privacyTermsChanging.style.fontWeigth = "";
+  termsOfUseChanging.style.fontWeigth = "";
 });
 /*----------------------------------------------------------*/
