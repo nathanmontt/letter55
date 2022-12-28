@@ -148,12 +148,20 @@ darkMode.addEventListener('click', function() {
 for (let i=0 ; i<footerLinksChanging.length ; i++) {
   whiteMode.addEventListener('click', function() {
     footerLinksChanging[i].style.color = colorSec;
+
+    footerLinksChanging[i].style.fontWeight = "200";
+    footerLinksChanging[i].style.fontWeight = "200";
+    footerLinksChanging[i].style.fontWeight = "200";
   });
 }
 
 for (let j=0 ; j<footerLinksChanging.length ; j++) {
   darkMode.addEventListener('click', function() {
     footerLinksChanging[j].style.color = colorLetter;
+
+    footerLinksChanging[j].style.fontWeight = "400";
+    footerLinksChanging[j].style.fontWeight = "400";
+    footerLinksChanging[j].style.fontWeight = "400";
   });
 }
 
@@ -173,8 +181,8 @@ darkMode.addEventListener('click', function() {
   privacyTermsChanging.style.color = colorLetter;
   termsOfUseChanging.style.color = colorLetter;
 
-  politicsChanging.style.fontWeight = "600";
-  privacyTermsChanging.style.fontWeight = "600";
-  termsOfUseChanging.style.fontWeight = "600";
+  politicsChanging.style.fontWeight = "400";
+  privacyTermsChanging.style.fontWeight = "400";
+  termsOfUseChanging.style.fontWeight = "400";
 });
 /*----------------------------------------------------------*/
