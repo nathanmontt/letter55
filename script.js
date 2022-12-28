@@ -163,9 +163,9 @@ whiteMode.addEventListener('click', function() {
   privacyTermsChanging.style.color = colorSec;
   termsOfUseChanging.style.color = colorSec;
 
-  politicsChanging.style.fontWeigth = "";
-  privacyTermsChanging.style.fontWeigth = "";
-  termsOfUseChanging.style.fontWeigth = "";
+  politicsChanging.style.fontWeigth = "600";
+  privacyTermsChanging.style.fontWeigth = "600";
+  termsOfUseChanging.style.fontWeigth = "600";
 });
 
 darkMode.addEventListener('click', function() {
@@ -173,8 +173,8 @@ darkMode.addEventListener('click', function() {
   privacyTermsChanging.style.color = colorLetter;
   termsOfUseChanging.style.color = colorLetter;
 
-  politicsChanging.style.fontWeigth = "";
-  privacyTermsChanging.style.fontWeigth = "";
-  termsOfUseChanging.style.fontWeigth = "";
+  politicsChanging.style.fontWeigth = "600";
+  privacyTermsChanging.style.fontWeigth = "600";
+  termsOfUseChanging.style.fontWeigth = "600";
 });
 /*----------------------------------------------------------*/

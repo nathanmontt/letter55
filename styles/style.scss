@@ -249,7 +249,7 @@ $font2: 'Noto Serif Khmer', serif;
           align-items: center;
 
           .name-company {
-            letter-spacing: .3rem;
+            letter-spacing: .07rem;
             font-family: $font2;
             font-weight: 400;
             font-size: 2rem;
@@ -272,7 +272,7 @@ $font2: 'Noto Serif Khmer', serif;
                 font-family: $font1;
                 font-weight: 300;
                 text-transform: uppercase;
-                letter-spacing: .3rem;
+                letter-spacing: .07rem;
                 color: $c2;
               }
             }
@@ -288,7 +288,7 @@ $font2: 'Noto Serif Khmer', serif;
           margin-top: .6rem;
           #privacy, #use {
             font-weight: 200;
-            letter-spacing: .1rem;
+            letter-spacing: .07rem;
             color: $c2;
           }
 
@@ -359,7 +359,7 @@ $font2: 'Noto Serif Khmer', serif;
         #design {
           font-family: $font1;
           font-weight: 200;
-          letter-spacing: .1rem;
+          letter-spacing: .01rem;
 
           a {
             color: $c2;

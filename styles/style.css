@@ -171,7 +171,7 @@
   align-items: center;
 }
 .container-general footer .container-grid-footer .container-left-top .container-logo .name-company {
-  letter-spacing: 0.3rem;
+  letter-spacing: 0.07rem;
   font-family: "Noto Serif Khmer", serif;
   font-weight: 400;
   font-size: 2rem;
@@ -187,7 +187,7 @@
   font-family: "Oswald", sans-serif;
   font-weight: 300;
   text-transform: uppercase;
-  letter-spacing: 0.3rem;
+  letter-spacing: 0.07rem;
   color: white;
 }
 .container-general footer .container-grid-footer .container-left-top .politics {
@@ -199,7 +199,7 @@
 }
 .container-general footer .container-grid-footer .container-left-top .politics #privacy, .container-general footer .container-grid-footer .container-left-top .politics #use {
   font-weight: 200;
-  letter-spacing: 0.1rem;
+  letter-spacing: 0.07rem;
   color: white;
 }
 .container-general footer .container-grid-footer .container-left-top .politics span {
@@ -256,7 +256,7 @@
 .container-general footer .container-grid-footer .container-right-bottom #design {
   font-family: "Oswald", sans-serif;
   font-weight: 200;
-  letter-spacing: 0.1rem;
+  letter-spacing: 0.01rem;
 }
 .container-general footer .container-grid-footer .container-right-bottom #design a {
   color: white;
