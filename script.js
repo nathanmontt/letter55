@@ -123,5 +123,22 @@ const name = document.getElementById('name');
 const email = document.getElementById('email');
 const btn = document.querySelector('button');
 
+//FOOTER BACKGROUND PART
+whiteMode.addEventListener('click', function() {
+  footer.style.colorBackgorundFooter = colorLetter;
+});
 
+darkMode.addEventListener('click', function() {
+  footer.style.colorBackgorundFooter = colorSec;
+});
+
+
+//LETTERS PART
+whiteMode.addEventListener('click', function() {
+  companyNameChanging.style.color = colorSec;
+});
+
+darkMode.addEventListener('click', function() {
+  companyNameChanging.style.color = colorLetter;
+});
 /*----------------------------------------------------------*/
