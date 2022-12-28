@@ -125,11 +125,11 @@ const btn = document.querySelector('button');
 
 //FOOTER BACKGROUND PART
 whiteMode.addEventListener('click', function() {
-  footer.style.colorBackgorundFooter = colorLetter;
+  footer.style.backgroundColor = colorLetter;
 });
 
 darkMode.addEventListener('click', function() {
-  footer.style.colorBackgorundFooter = colorSec;
+  footer.style.backgroundColor = colorBackgorundFooter;
 });
 
 
