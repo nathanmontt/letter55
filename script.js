@@ -141,4 +141,26 @@ whiteMode.addEventListener('click', function() {
 darkMode.addEventListener('click', function() {
   companyNameChanging.style.color = colorLetter;
 });
+
+//LINKS PART
+for (let i=0 ; i<footerLinksChanging.length ; i++) {
+  whiteMode.addEventListener('click', function() {
+    footerLinksChanging[i].style.color = colorSec;
+  });
+}
+
+for (let j=0 ; j<footerLinksChanging.length ; j++) {
+  darkMode.addEventListener('click', function() {
+    footerLinksChanging[j].style.color = colorLetter;
+  });
+}
+
+//POLITICS PART
+whiteMode.addEventListener('click', function() {
+  politicsChanging.style.color = colorSec;
+});
+
+darkMode.addEventListener('click', function() {
+  politicsChanging.style.color = colorLetter;
+});
 /*----------------------------------------------------------*/
