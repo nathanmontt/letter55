@@ -11,3 +11,23 @@
 #
 ### **Sobre o projeto**
 O projeto consiste na criação de uma aplicação web na qual podemos verificar que apresenta diversos tipos de arte, assim como está mostrado na seção abaixo do tópico <i>THE CONCEPT</i>. É apresentado, no site, como já dito anteriormente, os diversos tipo de arte que este acervo online apresenta.
+
+A aplicação consiste em demonstrar para o usuário sobre:
+
+* O conceito por trás da ideia do projeto;
+
+#
+
+### **Futuros Features**
+- Criação de <strong>mais páginas</strong>
+#
+
+### **Linguagens Utilizadas**
+
+Para a aplicação, foram utilizadas poucas linguagens, como:
+
+-  ![HTML Badge](https://img.shields.io/badge/HTML-orange)
+-  ![SASS Badge](https://img.shields.io/badge/SASS-ff69b4)
+-  ![CSS Badge](https://img.shields.io/badge/CSS-blue)
+-  ![JavaScript Badge](https://img.shields.io/badge/JavaScript-yellow)
+#
