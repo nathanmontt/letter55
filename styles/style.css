@@ -233,7 +233,7 @@
   padding: 0.6rem;
   width: 15rem;
 }
-.container-general footer .container-grid-footer .container-right-bottom form button {
+.container-general footer .container-grid-footer .container-right-bottom form #cta-btn {
   color: white;
   width: 10rem;
   padding: 1rem 2rem 1rem 2rem;
@@ -249,7 +249,7 @@
   cursor: pointer;
   transition: background-color 0.5s, color 0.5s;
 }
-.container-general footer .container-grid-footer .container-right-bottom form button:hover {
+.container-general footer .container-grid-footer .container-right-bottom form #cta-btn:hover {
   background-color: white;
   color: black;
 }

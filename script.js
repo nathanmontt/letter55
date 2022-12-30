@@ -189,5 +189,7 @@ darkMode.addEventListener('click', function() {
 
 /*------------------------FOOTER 1st PART----------------------------*/
 const titleSubmitChanging = document.querySelector('.title-submit');
-
+const nameChanging = document.getElementById('name');
+const idChanging = document.getElementById('id');
+const buttonChanging = document.getElementById('cta-btn');
 /*----------------------------------------------------------*/
