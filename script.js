@@ -113,7 +113,7 @@ for (let j=0 ; j<mainLinksChanging.length ; j++) {
 /*----------------------------------------------------------*/
 
 
-/*------------------------FOOTER----------------------------*/
+/*------------------------FOOTER 1st PART----------------------------*/
 const footer = document.querySelector('footer');
 const companyNameChanging = document.querySelector('.name-company');
 const footerLinksChanging = document.querySelectorAll('.footer-links');
@@ -185,4 +185,9 @@ darkMode.addEventListener('click', function() {
   privacyTermsChanging.style.fontWeight = "400";
   termsOfUseChanging.style.fontWeight = "400";
 });
+/*----------------------------------------------------------*/
+
+/*------------------------FOOTER 1st PART----------------------------*/
+const titleSubmitChanging = document.querySelector('.title-submit');
+
 /*----------------------------------------------------------*/
