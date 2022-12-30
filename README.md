@@ -31,3 +31,22 @@ Para a aplicação, foram utilizadas poucas linguagens, como:
 -  ![CSS Badge](https://img.shields.io/badge/CSS-blue)
 -  ![JavaScript Badge](https://img.shields.io/badge/JavaScript-yellow)
 #
+
+### **Licença**
+Foi utilizada a linceça do [MIT](./LICENSE)
+
+#
+### **Autor**
+<img style="border-radius: 100%" src="https://avatars.githubusercontent.com/u/87106760?s=400&u=a4fcaf45e79daf73720315436d4e598560012ff5&v=4" width="100px;" alt="profile-photo"/>
+
+##### Feito com ❤️ por Nathan Monteiro
+
+<em>Para acessar as inspirações para a criação desse projeto, <a href="https://unsplash.com/@nathanmontt">Clique aqui</a>. Para acessar dentro da pasta, clique em <strong>Collections</strong> e siga para a pasta <strong>letter55</strong></em>
+
+### **Contato**
+
+[![Linkedin Badge](https://img.shields.io/badge/-LinkedIn-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/fagnerpsantos/)](https://www.linkedin.com/in/nathan-monteiro/)
+[![Github Badge](https://img.shields.io/badge/-Github-000?style=flat-square&logo=Github&logoColor=white&link=https://github.com/fagnerpsantos)](https://github.com/nathanmontt)
+[![Twitter Badge](https://img.shields.io/badge/-Twitter-1ca0f1?style=flat-square&labelColor=1ca0f1&logo=twitter&logoColor=white&link=https://twitter.com/fagnerpsantos)](https://twitter.com/nathanmontt)
+
+#
