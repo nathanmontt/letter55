@@ -206,10 +206,14 @@ darkMode.addEventListener('click', function() {
 
 //BUTTON
 whiteMode.addEventListener('click', function() {
-  nameChanging.style.backgroundColor = colorFir;
+  buttonChanging.style.backgroundColor = "normal";
+  buttonChanging.style.border = ".01rem solid white";
+  // buttonChanging.style.color = colorFir;
 });
 
 darkMode.addEventListener('click', function() {
-  nameChanging.style.backgroundColor = colorSec;
+  buttonChanging.style.backgroundColor = colorBackgorundFooter;
+  buttonChanging.style.border = ".01rem solid black";
+  buttonChanging.style.color = colorFir;
 });
 /*----------------------------------------------------------*/
