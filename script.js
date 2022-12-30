@@ -189,6 +189,7 @@ darkMode.addEventListener('click', function() {
 
 /*------------------------FOOTER 1st PART----------------------------*/
 const titleSubmitChanging = document.querySelector('.title-submit');
+const linkMyselftChanging = document.querySelector('.link-myself');
 const buttonChanging = document.getElementById('cta-btn');
 const designChanging = document.getElementById('design');
 
@@ -215,5 +216,21 @@ darkMode.addEventListener('click', function() {
   buttonChanging.style.backgroundColor = colorBackgorundFooter;
   buttonChanging.style.border = ".01rem solid black";
   buttonChanging.style.color = colorFir;
+});
+
+
+//LINK TO MYSELF
+whiteMode.addEventListener('click', function() {
+  designChanging.style.color = colorSec;
+  designChanging.style.fontWeight = "200";
+  linkMyselftChanging.style.color = colorSec;
+  linkMyselftChanging.style.fontWeight = "200";
+});
+
+darkMode.addEventListener('click', function() {
+  designChanging.style.color = colorFir;
+  designChanging.style.fontWeight = "400";
+  linkMyselftChanging.style.color = colorFir;
+  linkMyselftChanging.style.fontWeight = "400";
 });
 /*----------------------------------------------------------*/

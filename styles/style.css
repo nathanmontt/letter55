@@ -253,11 +253,11 @@
   background-color: white;
   color: black;
 }
-.container-general footer .container-grid-footer .container-right-bottom p {
+.container-general footer .container-grid-footer .container-right-bottom .link-myself {
   font-family: "Oswald", sans-serif;
   font-weight: 200;
   letter-spacing: 0.01rem;
 }
-.container-general footer .container-grid-footer .container-right-bottom p #design {
+.container-general footer .container-grid-footer .container-right-bottom .link-myself #design {
   color: white;
 }/*# sourceMappingURL=style.css.map */
