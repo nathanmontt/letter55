@@ -189,7 +189,27 @@ darkMode.addEventListener('click', function() {
 
 /*------------------------FOOTER 1st PART----------------------------*/
 const titleSubmitChanging = document.querySelector('.title-submit');
-const nameChanging = document.getElementById('name');
-const idChanging = document.getElementById('id');
 const buttonChanging = document.getElementById('cta-btn');
+const designChanging = document.getElementById('design');
+
+//TITLE
+whiteMode.addEventListener('click', function() {
+  titleSubmitChanging.style.color = colorSec;
+  titleSubmitChanging.style.fontWeight = "200";
+});
+
+darkMode.addEventListener('click', function() {
+  titleSubmitChanging.style.color = colorFir;
+  titleSubmitChanging.style.fontWeight = "400";
+});
+
+
+//BUTTON
+whiteMode.addEventListener('click', function() {
+  nameChanging.style.backgroundColor = colorFir;
+});
+
+darkMode.addEventListener('click', function() {
+  nameChanging.style.backgroundColor = colorSec;
+});
 /*----------------------------------------------------------*/
