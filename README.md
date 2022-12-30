@@ -6,7 +6,7 @@
 ![Badge](https://img.shields.io/badge/lançamento-Dezembro-blue)
 ![Status Badge](https://img.shields.io/badge/status-em_desenvolvimento-yellow)
 
-<p align="center">Uma aplicação web, ainda em desenvolvimento, relacionada com um acervo online de arte chamada <strong>letter55</strong>. Para acessar a aplicação, <a href="#">clique aqui</a></p>
+<p align="center">Uma aplicação web, ainda em desenvolvimento, relacionada com um acervo online de arte chamada <strong>letter55</strong>. Para acessar a aplicação, <a href="https://nathanmontt.github.io/letter55/">clique aqui</a></p>
 
 #
 ### **Sobre o projeto**
