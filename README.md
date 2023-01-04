@@ -20,6 +20,7 @@ A aplicação consiste em demonstrar para o usuário sobre:
 
 ### **Futuros Features**
 - Criação de <strong>mais páginas</strong>
+- Atualização na forma em que o <strong>Light/Dark Mode foram usados</strong>
 #
 
 ### **Linguagens Utilizadas**
