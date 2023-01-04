@@ -2,9 +2,11 @@
 
 **<h1 align="center">![logo-letter55](https://user-images.githubusercontent.com/87106760/210088324-ae1388a7-6fb3-4429-a7ce-2df58f5e0c4c.png)</h1>**
 
-![MIT Badge licensed](https://img.shields.io/badge/license-MIT-informational)
-![Badge](https://img.shields.io/badge/lançamento-Dezembro-blue)
-![Status Badge](https://img.shields.io/badge/status-em_desenvolvimento-yellow)
+<p align="center">
+  <img alt="MIT Badge" src="https://img.shields.io/github/license/nathanmontt/letter55?style=for-the-badge&logo=appveyor">
+  <img alt="Repository Badge" src="https://img.shields.io/github/repo-size/nathanmontt/letter55?style=for-the-badge&logo=appveyor">
+  <img alt="Status Badge" src="https://img.shields.io/badge/status-em_desenvolvimento-yellow?style=for-the-badge&logo=appveyor">
+</p>
 
 <p align="center">Uma aplicação web, ainda em desenvolvimento, relacionada com um acervo online de arte chamada <strong>letter55</strong>. Para acessar a aplicação, <a href="https://nathanmontt.github.io/letter55/">clique aqui</a></p>
 
